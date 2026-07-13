@@ -1,0 +1,331 @@
+{
+  "meta": {
+    "siteName": "Disability Enlightenment Foundation",
+    "siteShort": "DEF Tanzania",
+    "placeholderNotice": "Sample content — replace with DEF's verified data before launch."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "programs": "Our Programs",
+    "projects": "Projects",
+    "news": "News & Blog",
+    "gallery": "Gallery",
+    "publications": "Publications",
+    "partners": "Partners",
+    "volunteer": "Volunteer",
+    "donate": "Donate",
+    "contact": "Contact Us",
+    "skipToContent": "Skip to main content"
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "readMore": "Read more",
+    "viewAll": "View all",
+    "getInvolved": "Get involved",
+    "back": "Back",
+    "close": "Close",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "sending": "Sending…",
+    "sampleContent": "Sample content",
+    "watchVideo": "Play video",
+    "photo": "Photo",
+    "video": "Video"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Disability Enlightenment Foundation",
+      "headline": "A Self-Dependent World for People with Disability",
+      "sub": "We run a nationwide campaign of public meetings, media tours, awards, and an annual conference to advance the rights, inclusion, and empowerment of persons with disabilities across Tanzania.",
+      "ctaPrimary": "Donate Now",
+      "ctaSecondary": "Become a Volunteer",
+      "mediaLabel": "DEF community outreach highlights"
+    },
+    "pillars": {
+      "visionLabel": "Our Vision",
+      "vision": "A self-dependent world for the people with disability.",
+      "missionLabel": "Our Mission",
+      "mission": "To initiate a nationwide campaign through public meetings and media tours, introducing awards and a yearly conference of the people with disability."
+    },
+    "stats": {
+      "title": "Our Impact So Far",
+      "note": "Figures below are illustrative placeholders — replace with DEF's verified impact data.",
+      "items": [
+        { "value": 500, "suffix": "+", "label": "People reached through campaigns" },
+        { "value": 9, "suffix": "", "label": "Focus areas of work" },
+        { "value": 7, "suffix": "", "label": "Core programs" },
+        { "value": 5, "suffix": "+", "label": "Regions engaged" }
+      ]
+    },
+    "focusAreas": {
+      "title": "Our Focus Areas",
+      "sub": "Nine interconnected areas guide every campaign, program, and partnership we run."
+    },
+    "programsPreview": {
+      "title": "Our Programs",
+      "sub": "Practical initiatives that turn our mission into everyday impact."
+    },
+    "newsPreview": {
+      "title": "Latest News & Stories",
+      "sub": "Updates from our campaigns, conferences, and communities."
+    },
+    "partnersStrip": {
+      "title": "Trusted by partners working toward an inclusive Tanzania"
+    },
+    "ctaBanner": {
+      "title": "Join the movement for a self-dependent Tanzania",
+      "sub": "Whether through giving, volunteering, or partnership — there is a place for you in this work.",
+      "ctaDonate": "Donate Now",
+      "ctaVolunteer": "Volunteer With Us"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About Us",
+      "sub": "Promoting the rights, inclusion, empowerment, and equal opportunity of persons with disabilities."
+    },
+    "intro": {
+      "title": "Who We Are",
+      "body": "Disability Enlightenment Foundation (DEF) is a non-profit organization dedicated to promoting the rights, inclusion, empowerment, and equal opportunities of persons with disabilities. We work to create an inclusive society where every person with a disability can participate fully in education, employment, leadership, entrepreneurship, technology, and community development."
+    },
+    "vision": {
+      "label": "Vision Statement",
+      "body": "A self dependence world for the people with disability."
+    },
+    "mission": {
+      "label": "Mission Statement",
+      "body": "To initiate a national wide campaign through public meetings and media tours, introducing awards and yearly conference of the people with disability."
+    },
+    "objectives": {
+      "title": "Our Objectives",
+      "items": [
+        "Promote self dependence notions to the disabled",
+        "Advocate for the rights of the people with disability",
+        "Raise awareness to the society about the abilities and uniqueness of disabled",
+        "Empower all disabled people economically, technologically and socially",
+        "Promote leadership skills for acquisition of political positions"
+      ]
+    },
+    "values": {
+      "title": "Our Core Values",
+      "items": [
+        { "name": "Inclusion", "body": "Every voice belongs in the room where decisions are made." },
+        { "name": "Equality", "body": "Equal rights and equal opportunity, without exception." },
+        { "name": "Respect and dignity", "body": "Every person is treated with the dignity they deserve." },
+        { "name": "Integrity", "body": "We hold ourselves accountable to honesty in all we do." },
+        { "name": "Empowerment", "body": "We build capacity, not dependency." },
+        { "name": "Innovation", "body": "We seek new, accessible ways to solve old problems." },
+        { "name": "Collaboration", "body": "Change happens faster together." },
+        { "name": "Accountability", "body": "We answer to the communities we serve." }
+      ]
+    },
+    "whoWeServe": {
+      "title": "Who We Serve",
+      "body": "Children, youth, women, men, and older persons with disabilities, their families, communities, schools, institutions, and policymakers."
+    }
+  },
+  "programs": {
+    "hero": {
+      "title": "Our Programs",
+      "sub": "Practical, community-rooted initiatives that carry our mission into everyday life."
+    },
+    "items": [
+      {
+        "name": "Community Awareness Campaigns",
+        "body": "Public meetings and media tours that shift how society sees the abilities and uniqueness of persons with disabilities."
+      },
+      {
+        "name": "Leadership Training for Youth with Disabilities",
+        "body": "Building the confidence and skills young leaders with disabilities need to take up positions of influence."
+      },
+      {
+        "name": "Inclusive Education Initiatives",
+        "body": "Working with schools and institutions to make classrooms accessible and welcoming for every learner."
+      },
+      {
+        "name": "Entrepreneurship and Livelihood Support",
+        "body": "Practical skills and start-up support so persons with disabilities can build sustainable livelihoods."
+      },
+      {
+        "name": "Advocacy and Policy Engagement",
+        "body": "Working with government and policymakers to strengthen the rights of persons with disabilities."
+      },
+      {
+        "name": "Research and Publications",
+        "body": "Evidence-based research that informs our programs and the wider disability rights sector."
+      },
+      {
+        "name": "Partnerships with Government, NGOs, Universities and the Private Sector",
+        "body": "Collaborative relationships that multiply our reach and impact."
+      }
+    ]
+  },
+  "projects": {
+    "hero": {
+      "title": "Projects",
+      "sub": "A look at the initiatives DEF is running and has run across our focus areas."
+    },
+    "filterAll": "All Focus Areas",
+    "focusAreas": [
+      "Disability rights advocacy",
+      "Inclusive education",
+      "Youth leadership",
+      "Skills development and entrepreneurship",
+      "Accessible technology and innovation",
+      "Community awareness",
+      "Research and policy advocacy",
+      "Health and well-being",
+      "Gender and disability inclusion"
+    ],
+    "items": [
+      { "title": "School Outreach & Inclusion Visits", "focusArea": "Inclusive education", "status": "Ongoing", "body": "DEF visits schools such as Uhuru Mchanganyiko Primary School to donate basic needs items, support vulnerable learners, and raise community awareness on the rights and potential of persons with disabilities." },
+      { "title": "Youth Leadership Academy", "focusArea": "Youth leadership", "status": "Ongoing", "body": "A training pipeline preparing young leaders with disabilities for civic and political roles." },
+      { "title": "DEF National Conference", "focusArea": "Community awareness", "status": "Annual", "body": "A yearly gathering and awards ceremony celebrating the achievements of persons with disabilities." },
+      { "title": "Digital Skills for Independence", "focusArea": "Accessible technology and innovation", "status": "Ongoing", "body": "In partnership with Siloam International (South Korea), DEF trained blind students at the University of Dar es Salaam in assistive technologies including the BrailleSense device and computer skills — building digital literacy, independent learning, and access to education." },
+      { "title": "Women with Disabilities Economic Circle", "focusArea": "Gender and disability inclusion", "status": "Pilot", "body": "Savings groups and entrepreneurship mentoring for women with disabilities." },
+      { "title": "Policy Advocacy Roundtables", "focusArea": "Research and policy advocacy", "status": "Ongoing", "body": "Bringing policymakers and the disability community together to strengthen protective legislation." }
+    ]
+  },
+  "news": {
+    "hero": {
+      "title": "News & Blog",
+      "sub": "Stories and updates from our campaigns, conferences, and communities."
+    }
+  },
+  "gallery": {
+    "hero": {
+      "title": "Gallery",
+      "sub": "Photos and videos from our school visits, assistive technology training, and community outreach."
+    },
+    "filterAll": "All",
+    "categories": ["Community", "Training"],
+    "items": [
+      { "type": "video", "category": "Community", "caption": "DEF community outreach in action", "src": "/videos/community-outreach.mp4" },
+      { "type": "photo", "category": "Community", "caption": "DEF visits Uhuru Mchanganyiko Primary School to donate basic needs items and support vulnerable learners", "src": "/images/gallery/activity-1.jpeg" },
+      { "type": "photo", "category": "Training", "caption": "Assistive technology training for blind students with Siloam International (South Korea) at the University of Dar es Salaam", "src": "/images/gallery/training-1.jpeg" },
+      { "type": "photo", "category": "Community", "caption": "Learners at Uhuru Mchanganyiko Primary School during DEF's outreach visit", "src": "/images/gallery/activity-2.jpeg" },
+      { "type": "photo", "category": "Training", "caption": "Hands-on computer skills training as part of the assistive technology program", "src": "/images/gallery/training-2.jpeg" },
+      { "type": "photo", "category": "Community", "caption": "Raising community awareness on disability rights during the school visit", "src": "/images/gallery/activity-3.jpeg" },
+      { "type": "photo", "category": "Training", "caption": "A student practices with a BrailleSense device during the training", "src": "/images/gallery/training-3.jpeg" },
+      { "type": "photo", "category": "Community", "caption": "DEF team supporting vulnerable learners at Uhuru Mchanganyiko Primary School", "src": "/images/gallery/activity-4.jpeg" },
+      { "type": "photo", "category": "Training", "caption": "Building digital literacy and independent learning skills", "src": "/images/gallery/training-4.jpeg" },
+      { "type": "photo", "category": "Community", "caption": "Promoting disability inclusion at the school donation visit", "src": "/images/gallery/activity-5.jpeg" },
+      { "type": "photo", "category": "Training", "caption": "Blind students learning assistive technology at the University of Dar es Salaam", "src": "/images/gallery/training-5.jpeg" },
+      { "type": "photo", "category": "Community", "caption": "DEF and community members at the Uhuru Mchanganyiko Primary School outreach", "src": "/images/gallery/activity-6.jpeg" },
+      { "type": "photo", "category": "Training", "caption": "BrailleSense and computer skills training session with Siloam International", "src": "/images/gallery/training-6.jpeg" },
+      { "type": "photo", "category": "Community", "caption": "DEF donating basic needs items to learners", "src": "/images/gallery/activity-7.jpeg" },
+      { "type": "photo", "category": "Training", "caption": "Improving access to education through assistive technology", "src": "/images/gallery/training-7.jpeg" },
+      { "type": "photo", "category": "Community", "caption": "Community awareness activity at Uhuru Mchanganyiko Primary School", "src": "/images/gallery/activity-8.jpeg" },
+      { "type": "photo", "category": "Training", "caption": "A trainee at a computer workstation during the assistive technology program", "src": "/images/gallery/training-8.jpeg" },
+      { "type": "photo", "category": "Community", "caption": "Learners and DEF staff during the school outreach visit", "src": "/images/gallery/activity-9.jpeg" }
+    ]
+  },
+  "publications": {
+    "hero": {
+      "title": "Publications",
+      "sub": "Research, reports, and resources from our work."
+    },
+    "downloadNote": "Sample entries — real publications and downloadable files will be added here."
+  },
+  "partners": {
+    "hero": {
+      "title": "Our Partners",
+      "sub": "Working alongside government, NGOs, universities, and the private sector."
+    },
+    "items": ["Partner Organization 1", "Partner Organization 2", "Partner Organization 3", "Partner Organization 4", "Partner Organization 5", "Partner Organization 6"],
+    "becomePartner": {
+      "title": "Become a Partner",
+      "body": "We collaborate with government bodies, NGOs, universities, and the private sector to widen our impact. Reach out to explore a partnership.",
+      "cta": "Contact Us"
+    }
+  },
+  "volunteer": {
+    "hero": {
+      "title": "Volunteer With Us",
+      "sub": "Lend your time and skills to advance disability rights, inclusion, and empowerment."
+    },
+    "opportunities": {
+      "title": "Ways to Volunteer",
+      "items": [
+        { "name": "Campaign Support", "body": "Help organize and run public meetings and awareness events." },
+        { "name": "Mentorship", "body": "Mentor youth in the Leadership Academy or entrepreneurship program." },
+        { "name": "Media & Content", "body": "Support photography, videography, writing, or social media." },
+        { "name": "Event Logistics", "body": "Help plan the annual conference and awards ceremony." }
+      ]
+    },
+    "form": {
+      "title": "Volunteer Application",
+      "name": "Full name",
+      "email": "Email address",
+      "phone": "Phone number",
+      "interest": "Area of interest",
+      "message": "Tell us about yourself",
+      "success": "Thank you — your application has been received. We'll be in touch soon."
+    }
+  },
+  "donate": {
+    "hero": {
+      "title": "Donate",
+      "sub": "Your gift funds campaigns, leadership training, and advocacy that build a self-dependent Tanzania."
+    },
+    "tiers": {
+      "title": "Ways to Give",
+      "items": [
+        { "amount": "20,000 TZS", "impact": "Supports outreach materials for a community awareness meeting." },
+        { "amount": "50,000 TZS", "impact": "Sponsors a training session in the Youth Leadership Academy." },
+        { "amount": "150,000 TZS", "impact": "Helps fund a public meeting during our media tour." },
+        { "amount": "500,000 TZS", "impact": "Contributes toward the annual national conference and awards." }
+      ],
+      "note": "Amounts are illustrative — confirm real giving tiers and impact figures with DEF before launch."
+    },
+    "bankDetails": {
+      "title": "Bank & Mobile Money Details",
+      "note": "Bank account, mobile money, and payment provider details will be added here once confirmed."
+    },
+    "form": {
+      "title": "Or Send Us Your Details",
+      "name": "Full name",
+      "email": "Email address",
+      "amount": "Intended amount",
+      "message": "Message (optional)",
+      "success": "Thank you — we've received your details and will follow up with next steps."
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact Us",
+      "sub": "We'd love to hear from you — partners, donors, volunteers, and the community alike."
+    },
+    "info": {
+      "title": "Get in Touch",
+      "phone": "Phone",
+      "phoneValue": "+255 683 400 781",
+      "whatsapp": "WhatsApp",
+      "whatsappValue": "+255 744 679 050",
+      "email": "Email",
+      "emailValue": "defotanzania@gmail.com",
+      "address": "Head Office",
+      "addressValue": "Palm Village Street, near King Casino, Mikocheni, Dar es Salaam, Tanzania",
+      "poBox": "Postal Address",
+      "poBoxValue": "P.O. Box 2125, Dar es Salaam, Tanzania"
+    },
+    "form": {
+      "title": "Send a Message",
+      "name": "Full name",
+      "email": "Email address",
+      "subject": "Subject",
+      "message": "Message",
+      "success": "Thank you for your message — we'll respond as soon as possible."
+    },
+    "mapLabel": "Map: DEF office location"
+  },
+  "footer": {
+    "tagline": "A self-dependent world for the people with disability.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved."
+  }
+}

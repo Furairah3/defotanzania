@@ -1,0 +1,310 @@
+{
+  "meta": {
+    "siteName": "Taasisi ya Kuelimisha Watu wenye Ulemavu",
+    "siteShort": "DEF Tanzania",
+    "placeholderNotice": "Maudhui ya mfano — yatabadilishwe na taarifa halisi za DEF kabla ya uzinduzi."
+  },
+  "nav": {
+    "home": "Nyumbani",
+    "about": "Kuhusu Sisi",
+    "programs": "Mipango Yetu",
+    "projects": "Miradi",
+    "news": "Habari na Blogu",
+    "gallery": "Picha na Video",
+    "publications": "Machapisho",
+    "partners": "Washirika",
+    "volunteer": "Kujitolea",
+    "donate": "Changia",
+    "contact": "Wasiliana Nasi",
+    "skipToContent": "Rukia kwenye maudhui makuu"
+  },
+  "common": {
+    "learnMore": "Jifunze zaidi",
+    "readMore": "Soma zaidi",
+    "viewAll": "Angalia zote",
+    "getInvolved": "Shiriki nasi",
+    "back": "Rudi",
+    "close": "Funga",
+    "next": "Ifuatayo",
+    "previous": "Iliyotangulia",
+    "submit": "Tuma",
+    "sending": "Inatuma…",
+    "sampleContent": "Maudhui ya mfano",
+    "watchVideo": "Cheza video",
+    "photo": "Picha",
+    "video": "Video"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Taasisi ya Kuelimisha Watu wenye Ulemavu",
+      "headline": "Dunia ya Kujitegemea kwa Watu wenye Ulemavu",
+      "sub": "Tunaendesha kampeni ya kitaifa ya mikutano ya hadhara na ziara za vyombo vya habari, tukiwa na tuzo na kongamano la kila mwaka, kuendeleza haki, ujumuishaji, na uwezeshaji wa watu wenye ulemavu nchini Tanzania.",
+      "ctaPrimary": "Changia Sasa",
+      "ctaSecondary": "Kuwa Mjitolea",
+      "mediaLabel": "Muhtasari wa shughuli za DEF kwa jamii"
+    },
+    "pillars": {
+      "visionLabel": "Dira Yetu",
+      "vision": "Dunia ya kujitegemea kwa watu wenye ulemavu.",
+      "missionLabel": "Dhamira Yetu",
+      "mission": "Kuanzisha kampeni ya kitaifa kupitia mikutano ya hadhara na ziara za vyombo vya habari, ikianzisha tuzo na kongamano la kila mwaka la watu wenye ulemavu."
+    },
+    "stats": {
+      "title": "Matokeo Yetu Hadi Sasa",
+      "note": "Takwimu hapa chini ni za mfano — zitabadilishwe na takwimu halisi za DEF.",
+      "items": [
+        { "value": 500, "suffix": "+", "label": "Watu waliofikiwa kupitia kampeni" },
+        { "value": 9, "suffix": "", "label": "Maeneo makuu ya kazi" },
+        { "value": 7, "suffix": "", "label": "Mipango mikuu" },
+        { "value": 5, "suffix": "+", "label": "Mikoa iliyoshirikishwa" }
+      ]
+    },
+    "focusAreas": {
+      "title": "Maeneo Yetu Makuu",
+      "sub": "Maeneo tisa yanayohusiana huongoza kila kampeni, mpango, na ushirikiano tunaofanya."
+    },
+    "programsPreview": {
+      "title": "Mipango Yetu",
+      "sub": "Mipango ya vitendo inayogeuza dhamira yetu kuwa matokeo ya kila siku."
+    },
+    "newsPreview": {
+      "title": "Habari na Hadithi za Hivi Karibuni",
+      "sub": "Taarifa kutoka kampeni, makongamano, na jamii zetu."
+    },
+    "partnersStrip": {
+      "title": "Tunaaminiwa na washirika wanaofanya kazi kwa Tanzania jumuishi"
+    },
+    "ctaBanner": {
+      "title": "Jiunge na harakati za Tanzania ya kujitegemea",
+      "sub": "Iwe kwa kuchangia, kujitolea, au ushirikiano — kuna nafasi yako katika kazi hii.",
+      "ctaDonate": "Changia Sasa",
+      "ctaVolunteer": "Jitolee Nasi"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Kuhusu Sisi",
+      "sub": "Kuendeleza haki, ujumuishaji, uwezeshaji, na fursa sawa kwa watu wenye ulemavu."
+    },
+    "intro": {
+      "title": "Sisi Ni Nani",
+      "body": "Taasisi ya Kuelimisha Watu wenye Ulemavu (DEF) ni shirika lisilo la faida linalojikita katika kuendeleza haki, ujumuishaji, uwezeshaji, na fursa sawa kwa watu wenye ulemavu. Tunafanya kazi kujenga jamii jumuishi ambapo kila mtu mwenye ulemavu anaweza kushiriki kikamilifu katika elimu, ajira, uongozi, ujasiriamali, teknolojia, na maendeleo ya jamii."
+    },
+    "vision": {
+      "label": "Dira",
+      "body": "Dunia ya kujitegemea kwa watu wenye ulemavu."
+    },
+    "mission": {
+      "label": "Dhamira",
+      "body": "Kuanzisha kampeni ya kitaifa kupitia mikutano ya hadhara na ziara za vyombo vya habari, ikianzisha tuzo na kongamano la kila mwaka la watu wenye ulemavu."
+    },
+    "objectives": {
+      "title": "Malengo Yetu",
+      "items": [
+        "Kukuza dhana ya kujitegemea kwa watu wenye ulemavu",
+        "Kutetea haki za watu wenye ulemavu",
+        "Kuhamasisha jamii kuhusu uwezo na upekee wa watu wenye ulemavu",
+        "Kuwawezesha watu wenye ulemavu kiuchumi, kiteknolojia na kijamii",
+        "Kukuza ujuzi wa uongozi kwa ajili ya kushika nafasi za kisiasa"
+      ]
+    },
+    "values": {
+      "title": "Maadili Yetu Makuu",
+      "items": [
+        { "name": "Ujumuishaji", "body": "Kila sauti ina nafasi yake pale maamuzi yanapofanywa." },
+        { "name": "Usawa", "body": "Haki sawa na fursa sawa, bila ubaguzi." },
+        { "name": "Heshima na utu", "body": "Kila mtu anastahili kutendewa kwa heshima." },
+        { "name": "Uadilifu", "body": "Tunajiwajibisha kwa uaminifu katika kila tunachofanya." },
+        { "name": "Uwezeshaji", "body": "Tunajenga uwezo, si utegemezi." },
+        { "name": "Ubunifu", "body": "Tunatafuta njia mpya, jumuishi za kutatua matatizo ya zamani." },
+        { "name": "Ushirikiano", "body": "Mabadiliko yanakuja haraka zaidi tukiwa pamoja." },
+        { "name": "Uwajibikaji", "body": "Tunawajibika kwa jamii tunazozihudumia." }
+      ]
+    },
+    "whoWeServe": {
+      "title": "Tunaowahudumia",
+      "body": "Watoto, vijana, wanawake, wanaume, na wazee wenye ulemavu, familia zao, jamii, shule, taasisi, na watunga sera."
+    }
+  },
+  "programs": {
+    "hero": {
+      "title": "Mipango Yetu",
+      "sub": "Mipango ya vitendo, iliyojikita kwenye jamii, inayobeba dhamira yetu katika maisha ya kila siku."
+    },
+    "items": [
+      { "name": "Kampeni za Uhamasishaji wa Jamii", "body": "Mikutano ya hadhara na ziara za vyombo vya habari zinazobadilisha jinsi jamii inavyoona uwezo na upekee wa watu wenye ulemavu." },
+      { "name": "Mafunzo ya Uongozi kwa Vijana wenye Ulemavu", "body": "Kujenga ujasiri na ujuzi wanaohitaji viongozi vijana wenye ulemavu ili kushika nafasi za ushawishi." },
+      { "name": "Mipango ya Elimu Jumuishi", "body": "Kufanya kazi na shule na taasisi kuhakikisha madarasa yanafikika na kukaribisha kila mwanafunzi." },
+      { "name": "Msaada wa Ujasiriamali na Kujikimu", "body": "Ujuzi wa vitendo na msaada wa kuanzisha biashara ili watu wenye ulemavu wajenge kipato endelevu." },
+      { "name": "Utetezi na Ushirikiano wa Sera", "body": "Kufanya kazi na serikali na watunga sera kuimarisha haki za watu wenye ulemavu." },
+      { "name": "Utafiti na Machapisho", "body": "Utafiti wenye ushahidi unaoongoza mipango yetu na sekta pana ya haki za walemavu." },
+      { "name": "Ushirikiano na Serikali, Mashirika, Vyuo Vikuu na Sekta Binafsi", "body": "Uhusiano wa kushirikiana unaoongeza wigo na matokeo ya kazi yetu." }
+    ]
+  },
+  "projects": {
+    "hero": {
+      "title": "Miradi",
+      "sub": "Muhtasari wa mipango ambayo DEF inaendesha na imewahi kuendesha katika maeneo yetu makuu."
+    },
+    "filterAll": "Maeneo Yote",
+    "focusAreas": [
+      "Utetezi wa haki za walemavu",
+      "Elimu jumuishi",
+      "Uongozi wa vijana",
+      "Maendeleo ya ujuzi na ujasiriamali",
+      "Teknolojia inayofikika na ubunifu",
+      "Uhamasishaji wa jamii",
+      "Utafiti na utetezi wa sera",
+      "Afya na ustawi",
+      "Jinsia na ujumuishaji wa ulemavu"
+    ],
+    "items": [
+      { "title": "Ziara za Shule na Ujumuishaji", "focusArea": "Elimu jumuishi", "status": "Unaendelea", "body": "DEF hutembelea shule kama Shule ya Msingi Uhuru Mchanganyiko kutoa vifaa vya mahitaji ya msingi, kusaidia wanafunzi wenye mazingira magumu, na kuhamasisha jamii kuhusu haki na uwezo wa watu wenye ulemavu." },
+      { "title": "Chuo cha Uongozi kwa Vijana", "focusArea": "Uongozi wa vijana", "status": "Unaendelea", "body": "Mfumo wa mafunzo unaoandaa viongozi vijana wenye ulemavu kwa nafasi za kiraia na kisiasa." },
+      { "title": "Kongamano la Kitaifa la DEF", "focusArea": "Uhamasishaji wa jamii", "status": "Kila mwaka", "body": "Mkusanyiko wa kila mwaka na sherehe ya tuzo inayoenzi mafanikio ya watu wenye ulemavu." },
+      { "title": "Ujuzi wa Kidijitali kwa Kujitegemea", "focusArea": "Teknolojia inayofikika na ubunifu", "status": "Unaendelea", "body": "Kwa ushirikiano na Siloam International (Korea Kusini), DEF ilitoa mafunzo kwa wanafunzi wasioona katika Chuo Kikuu cha Dar es Salaam kuhusu teknolojia saidizi ikiwemo kifaa cha BrailleSense na ujuzi wa kompyuta — kujenga ujuzi wa kidijitali, kujifunza kwa kujitegemea, na upatikanaji wa elimu." },
+      { "title": "Kikundi cha Kiuchumi cha Wanawake wenye Ulemavu", "focusArea": "Jinsia na ujumuishaji wa ulemavu", "status": "Majaribio", "body": "Vikundi vya akiba na ushauri wa ujasiriamali kwa wanawake wenye ulemavu." },
+      { "title": "Mijadala ya Utetezi wa Sera", "focusArea": "Utafiti na utetezi wa sera", "status": "Unaendelea", "body": "Kuwakutanisha watunga sera na jamii ya walemavu ili kuimarisha sheria za ulinzi." }
+    ]
+  },
+  "news": {
+    "hero": {
+      "title": "Habari na Blogu",
+      "sub": "Hadithi na taarifa kutoka kampeni, makongamano, na jamii zetu."
+    }
+  },
+  "gallery": {
+    "hero": {
+      "title": "Picha na Video",
+      "sub": "Picha na video kutoka ziara zetu za shule, mafunzo ya teknolojia saidizi, na uhamasishaji wa jamii."
+    },
+    "filterAll": "Zote",
+    "categories": ["Jamii", "Mafunzo"],
+    "items": [
+      { "type": "video", "category": "Jamii", "caption": "Shughuli za DEF za uhamasishaji wa jamii", "src": "/videos/community-outreach.mp4" },
+      { "type": "photo", "category": "Jamii", "caption": "DEF yatembelea Shule ya Msingi Uhuru Mchanganyiko kutoa vifaa vya mahitaji ya msingi na kusaidia wanafunzi wenye mazingira magumu", "src": "/images/gallery/activity-1.jpeg" },
+      { "type": "photo", "category": "Mafunzo", "caption": "Mafunzo ya teknolojia saidizi kwa wanafunzi wasioona kwa ushirikiano na Siloam International (Korea Kusini) katika Chuo Kikuu cha Dar es Salaam", "src": "/images/gallery/training-1.jpeg" },
+      { "type": "photo", "category": "Jamii", "caption": "Wanafunzi wa Shule ya Msingi Uhuru Mchanganyiko wakati wa ziara ya DEF", "src": "/images/gallery/activity-2.jpeg" },
+      { "type": "photo", "category": "Mafunzo", "caption": "Mafunzo ya vitendo ya ujuzi wa kompyuta kama sehemu ya mpango wa teknolojia saidizi", "src": "/images/gallery/training-2.jpeg" },
+      { "type": "photo", "category": "Jamii", "caption": "Kuhamasisha jamii kuhusu haki za walemavu wakati wa ziara ya shule", "src": "/images/gallery/activity-3.jpeg" },
+      { "type": "photo", "category": "Mafunzo", "caption": "Mwanafunzi akijifunza kutumia kifaa cha BrailleSense wakati wa mafunzo", "src": "/images/gallery/training-3.jpeg" },
+      { "type": "photo", "category": "Jamii", "caption": "Timu ya DEF ikiwasaidia wanafunzi wenye mazingira magumu katika Shule ya Uhuru Mchanganyiko", "src": "/images/gallery/activity-4.jpeg" },
+      { "type": "photo", "category": "Mafunzo", "caption": "Kujenga ujuzi wa kidijitali na uwezo wa kujifunza kwa kujitegemea", "src": "/images/gallery/training-4.jpeg" },
+      { "type": "photo", "category": "Jamii", "caption": "Kukuza ujumuishaji wa walemavu wakati wa ziara ya kutoa misaada shuleni", "src": "/images/gallery/activity-5.jpeg" },
+      { "type": "photo", "category": "Mafunzo", "caption": "Wanafunzi wasioona wakijifunza teknolojia saidizi katika Chuo Kikuu cha Dar es Salaam", "src": "/images/gallery/training-5.jpeg" },
+      { "type": "photo", "category": "Jamii", "caption": "DEF na wanajamii katika ziara ya Shule ya Msingi Uhuru Mchanganyiko", "src": "/images/gallery/activity-6.jpeg" },
+      { "type": "photo", "category": "Mafunzo", "caption": "Mafunzo ya BrailleSense na ujuzi wa kompyuta kwa ushirikiano na Siloam International", "src": "/images/gallery/training-6.jpeg" },
+      { "type": "photo", "category": "Jamii", "caption": "DEF ikitoa vifaa vya mahitaji ya msingi kwa wanafunzi", "src": "/images/gallery/activity-7.jpeg" },
+      { "type": "photo", "category": "Mafunzo", "caption": "Kuboresha upatikanaji wa elimu kupitia teknolojia saidizi", "src": "/images/gallery/training-7.jpeg" },
+      { "type": "photo", "category": "Jamii", "caption": "Shughuli ya uhamasishaji wa jamii katika Shule ya Msingi Uhuru Mchanganyiko", "src": "/images/gallery/activity-8.jpeg" },
+      { "type": "photo", "category": "Mafunzo", "caption": "Mshiriki kwenye kituo cha kompyuta wakati wa mpango wa teknolojia saidizi", "src": "/images/gallery/training-8.jpeg" },
+      { "type": "photo", "category": "Jamii", "caption": "Wanafunzi na wafanyakazi wa DEF wakati wa ziara ya shule", "src": "/images/gallery/activity-9.jpeg" }
+    ]
+  },
+  "publications": {
+    "hero": {
+      "title": "Machapisho",
+      "sub": "Utafiti, ripoti, na rasilimali kutoka kazi yetu."
+    },
+    "downloadNote": "Maingizo ya mfano — machapisho halisi na faili za kupakua zitaongezwa hapa."
+  },
+  "partners": {
+    "hero": {
+      "title": "Washirika Wetu",
+      "sub": "Tunafanya kazi pamoja na serikali, mashirika, vyuo vikuu, na sekta binafsi."
+    },
+    "items": ["Shirika Mshirika 1", "Shirika Mshirika 2", "Shirika Mshirika 3", "Shirika Mshirika 4", "Shirika Mshirika 5", "Shirika Mshirika 6"],
+    "becomePartner": {
+      "title": "Kuwa Mshirika",
+      "body": "Tunashirikiana na taasisi za serikali, mashirika, vyuo vikuu, na sekta binafsi kupanua matokeo yetu. Wasiliana nasi kuchunguza ushirikiano.",
+      "cta": "Wasiliana Nasi"
+    }
+  },
+  "volunteer": {
+    "hero": {
+      "title": "Jitolee Nasi",
+      "sub": "Toa muda na ujuzi wako kuendeleza haki, ujumuishaji, na uwezeshaji wa watu wenye ulemavu."
+    },
+    "opportunities": {
+      "title": "Njia za Kujitolea",
+      "items": [
+        { "name": "Msaada wa Kampeni", "body": "Saidia kuandaa na kuendesha mikutano ya hadhara na matukio ya uhamasishaji." },
+        { "name": "Ushauri", "body": "Kuwa mshauri kwa vijana katika Chuo cha Uongozi au mpango wa ujasiriamali." },
+        { "name": "Vyombo vya Habari na Maudhui", "body": "Saidia upigaji picha, video, uandishi, au mitandao ya kijamii." },
+        { "name": "Uratibu wa Matukio", "body": "Saidia kupanga kongamano la kila mwaka na sherehe ya tuzo." }
+      ]
+    },
+    "form": {
+      "title": "Fomu ya Kujitolea",
+      "name": "Jina kamili",
+      "email": "Barua pepe",
+      "phone": "Nambari ya simu",
+      "interest": "Eneo la kupenda",
+      "message": "Tueleze kuhusu wewe",
+      "success": "Asante — maombi yako yamepokelewa. Tutawasiliana nawe hivi karibuni."
+    }
+  },
+  "donate": {
+    "hero": {
+      "title": "Changia",
+      "sub": "Mchango wako unafadhili kampeni, mafunzo ya uongozi, na utetezi unaojenga Tanzania ya kujitegemea."
+    },
+    "tiers": {
+      "title": "Njia za Kuchangia",
+      "items": [
+        { "amount": "20,000 TZS", "impact": "Inasaidia vifaa vya uhamasishaji kwa mkutano wa jamii." },
+        { "amount": "50,000 TZS", "impact": "Inafadhili kipindi cha mafunzo katika Chuo cha Uongozi wa Vijana." },
+        { "amount": "150,000 TZS", "impact": "Inasaidia kufadhili mkutano wa hadhara wakati wa ziara ya vyombo vya habari." },
+        { "amount": "500,000 TZS", "impact": "Inachangia kongamano la kitaifa la kila mwaka na tuzo." }
+      ],
+      "note": "Kiasi ni cha mfano — thibitisha viwango halisi vya uchangiaji na matokeo na DEF kabla ya uzinduzi."
+    },
+    "bankDetails": {
+      "title": "Taarifa za Benki na Pesa za Simu",
+      "note": "Taarifa za akaunti ya benki, pesa za simu, na mtoa huduma wa malipo zitaongezwa hapa baada ya kuthibitishwa."
+    },
+    "form": {
+      "title": "Au Tutumie Taarifa Zako",
+      "name": "Jina kamili",
+      "email": "Barua pepe",
+      "amount": "Kiasi unachokusudia",
+      "message": "Ujumbe (hiari)",
+      "success": "Asante — tumepokea taarifa zako na tutawasiliana na hatua zinazofuata."
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Wasiliana Nasi",
+      "sub": "Tungependa kusikia kutoka kwako — washirika, wafadhili, wajitoleaji, na jamii kwa ujumla."
+    },
+    "info": {
+      "title": "Wasiliana Nasi",
+      "phone": "Simu",
+      "phoneValue": "+255 683 400 781",
+      "whatsapp": "WhatsApp",
+      "whatsappValue": "+255 744 679 050",
+      "email": "Barua pepe",
+      "emailValue": "defotanzania@gmail.com",
+      "address": "Ofisi Kuu",
+      "addressValue": "Palm Village Street, karibu na King Casino, Mikocheni, Dar es Salaam, Tanzania",
+      "poBox": "Anwani ya Posta",
+      "poBoxValue": "S.L.P 2125, Dar es Salaam, Tanzania"
+    },
+    "form": {
+      "title": "Tuma Ujumbe",
+      "name": "Jina kamili",
+      "email": "Barua pepe",
+      "subject": "Mada",
+      "message": "Ujumbe",
+      "success": "Asante kwa ujumbe wako — tutajibu haraka iwezekanavyo."
+    },
+    "mapLabel": "Ramani: Mahali ofisi ya DEF ilipo"
+  },
+  "footer": {
+    "tagline": "Dunia ya kujitegemea kwa watu wenye ulemavu.",
+    "quickLinks": "Viungo vya Haraka",
+    "contact": "Mawasiliano",
+    "followUs": "Tufuate",
+    "rights": "Haki zote zimehifadhiwa."
+  }
+}

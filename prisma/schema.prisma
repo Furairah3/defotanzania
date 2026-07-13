@@ -1,0 +1,70 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client"
+  output   = "../lib/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model ContactSubmission {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  subject   String
+  message   String
+  createdAt DateTime @default(now())
+}
+
+model VolunteerApplication {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  phone     String?
+  interest  String?
+  message   String?
+  createdAt DateTime @default(now())
+}
+
+model DonationIntent {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  amount    String
+  message   String?
+  createdAt DateTime @default(now())
+}
+
+model NewsPost {
+  id        String   @id @default(cuid())
+  slug      String   @unique
+  titleEn   String
+  titleSw   String
+  excerptEn String
+  excerptSw String
+  bodyEn    String   @db.Text
+  bodySw    String   @db.Text
+  date      DateTime @default(now())
+  published Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([published, date])
+}
+
+model Publication {
+  id        String   @id @default(cuid())
+  titleEn   String
+  titleSw   String
+  type      String
+  year      String
+  fileUrl   String?
+  published Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([published, createdAt])
+}
