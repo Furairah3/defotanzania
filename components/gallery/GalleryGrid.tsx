@@ -10,11 +10,9 @@ import PlaceholderVideo from '@/components/media/PlaceholderVideo';
 
 type Item = { type: 'photo' | 'video'; category: string; caption: string; src?: string };
 
-export default function GalleryGrid() {
+export default function GalleryGrid({ items, categories }: { items: Item[]; categories: string[] }) {
   const t = useTranslations('gallery');
   const common = useTranslations('common');
-  const categories = t.raw('categories') as string[];
-  const items = t.raw('items') as Item[];
   const [active, setActive] = useState('all');
   const [selected, setSelected] = useState<Item | null>(null);
   const shouldReduceMotion = useReducedMotion();

@@ -5,6 +5,9 @@ import Section from '@/components/ui/Section';
 import Reveal from '@/components/motion/Reveal';
 import Card from '@/components/ui/Card';
 import DonateForm from '@/components/forms/DonateForm';
+import { heroTitleMetadata } from '@/lib/pageMetadata';
+
+export const generateMetadata = heroTitleMetadata('donate');
 
 export default function DonatePage() {
   const t = useTranslations('donate');
@@ -34,14 +37,14 @@ export default function DonatePage() {
       <Section className="bg-slate-50">
         <div className="grid gap-8 lg:grid-cols-2">
           <Reveal direction="right">
-            <div className="h-full rounded-2xl border border-dashed border-brand-300 bg-white p-8">
+            <div className="h-full rounded-2xl border border-dashed border-brand-300 bg-slate-50 p-8">
               <Landmark className="h-8 w-8 text-brand-600" aria-hidden="true" />
               <h2 className="mt-4 font-display text-xl font-bold text-brand-950">{t('bankDetails.title')}</h2>
               <p className="mt-3 text-sm text-slate-600">{t('bankDetails.note')}</p>
             </div>
           </Reveal>
           <Reveal direction="left" delay={0.1}>
-            <div className="rounded-2xl bg-white p-8 shadow-sm">
+            <div className="rounded-2xl bg-slate-50 p-8 shadow-sm">
               <DonateForm />
             </div>
           </Reveal>

@@ -68,3 +68,65 @@ model Publication {
 
   @@index([published, createdAt])
 }
+
+model TeamMember {
+  id        String   @id @default(cuid())
+  name      String
+  roleEn    String
+  roleSw    String
+  bioEn     String?
+  bioSw     String?
+  photoUrl  String?
+  order     Int      @default(0)
+  published Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([published, order])
+}
+
+model GalleryItem {
+  id         String   @id @default(cuid())
+  type       String // "photo" | "video"
+  captionEn  String
+  captionSw  String
+  categoryEn String
+  categorySw String
+  fileUrl    String
+  order      Int      @default(0)
+  published  Boolean  @default(true)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@index([published, order])
+}
+
+model Project {
+  id           String   @id @default(cuid())
+  titleEn      String
+  titleSw      String
+  focusAreaEn  String
+  focusAreaSw  String
+  status       String
+  bodyEn       String
+  bodySw       String
+  order        Int      @default(0)
+  published    Boolean  @default(true)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@index([published, order])
+}
+
+model Partner {
+  id         String   @id @default(cuid())
+  name       String
+  logoUrl    String?
+  websiteUrl String?
+  order      Int      @default(0)
+  published  Boolean  @default(true)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@index([published, order])
+}

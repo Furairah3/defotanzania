@@ -6,6 +6,7 @@ import { SOCIAL_LINKS } from '@/lib/orgInfo';
 
 const QUICK_LINKS = [
   ['about', '/about'],
+  ['team', '/team'],
   ['programs', '/programs'],
   ['projects', '/projects'],
   ['gallery', '/gallery'],

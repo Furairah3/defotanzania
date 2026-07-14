@@ -5,10 +5,11 @@ import { useReducedMotion } from 'framer-motion';
 import Section from '@/components/ui/Section';
 import Reveal from '@/components/motion/Reveal';
 
-export default function PartnersStrip() {
+export default function PartnersStrip({ partners }: { partners: { id: string; name: string }[] }) {
   const t = useTranslations('home.partnersStrip');
-  const partners = useTranslations('partners').raw('items') as string[];
   const shouldReduceMotion = useReducedMotion();
+
+  if (partners.length === 0) return null;
 
   return (
     <Section className="py-12 sm:py-16">
@@ -19,8 +20,8 @@ export default function PartnersStrip() {
       {shouldReduceMotion ? (
         <div className="mt-8 flex flex-wrap items-center justify-center gap-x-10 gap-y-4">
           {partners.map((partner) => (
-            <span key={partner} className="text-sm font-semibold text-slate-400">
-              {partner}
+            <span key={partner.id} className="text-sm font-semibold text-slate-400">
+              {partner.name}
             </span>
           ))}
         </div>
@@ -32,8 +33,8 @@ export default function PartnersStrip() {
         >
           <div className="flex w-max animate-marquee gap-16 group-hover:[animation-play-state:paused]">
             {[...partners, ...partners].map((partner, i) => (
-              <span key={`${partner}-${i}`} className="whitespace-nowrap text-sm font-semibold text-slate-400">
-                {partner}
+              <span key={`${partner.id}-${i}`} className="whitespace-nowrap text-sm font-semibold text-slate-400">
+                {partner.name}
               </span>
             ))}
           </div>

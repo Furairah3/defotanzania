@@ -7,6 +7,7 @@
   "nav": {
     "home": "Home",
     "about": "About Us",
+    "team": "Meet the Team",
     "programs": "Our Programs",
     "projects": "Projects",
     "news": "News & Blog",
@@ -126,6 +127,12 @@
       "body": "Children, youth, women, men, and older persons with disabilities, their families, communities, schools, institutions, and policymakers."
     }
   },
+  "team": {
+    "hero": {
+      "title": "Meet the Team",
+      "sub": "The people leading DEF's work for disability rights, inclusion, and empowerment."
+    }
+  },
   "programs": {
     "hero": {
       "title": "Our Programs",
@@ -178,14 +185,6 @@
       "Research and policy advocacy",
       "Health and well-being",
       "Gender and disability inclusion"
-    ],
-    "items": [
-      { "title": "School Outreach & Inclusion Visits", "focusArea": "Inclusive education", "status": "Ongoing", "body": "DEF visits schools such as Uhuru Mchanganyiko Primary School to donate basic needs items, support vulnerable learners, and raise community awareness on the rights and potential of persons with disabilities." },
-      { "title": "Youth Leadership Academy", "focusArea": "Youth leadership", "status": "Ongoing", "body": "A training pipeline preparing young leaders with disabilities for civic and political roles." },
-      { "title": "DEF National Conference", "focusArea": "Community awareness", "status": "Annual", "body": "A yearly gathering and awards ceremony celebrating the achievements of persons with disabilities." },
-      { "title": "Digital Skills for Independence", "focusArea": "Accessible technology and innovation", "status": "Ongoing", "body": "In partnership with Siloam International (South Korea), DEF trained blind students at the University of Dar es Salaam in assistive technologies including the BrailleSense device and computer skills — building digital literacy, independent learning, and access to education." },
-      { "title": "Women with Disabilities Economic Circle", "focusArea": "Gender and disability inclusion", "status": "Pilot", "body": "Savings groups and entrepreneurship mentoring for women with disabilities." },
-      { "title": "Policy Advocacy Roundtables", "focusArea": "Research and policy advocacy", "status": "Ongoing", "body": "Bringing policymakers and the disability community together to strengthen protective legislation." }
     ]
   },
   "news": {
@@ -199,28 +198,7 @@
       "title": "Gallery",
       "sub": "Photos and videos from our school visits, assistive technology training, and community outreach."
     },
-    "filterAll": "All",
-    "categories": ["Community", "Training"],
-    "items": [
-      { "type": "video", "category": "Community", "caption": "DEF community outreach in action", "src": "/videos/community-outreach.mp4" },
-      { "type": "photo", "category": "Community", "caption": "DEF visits Uhuru Mchanganyiko Primary School to donate basic needs items and support vulnerable learners", "src": "/images/gallery/activity-1.jpeg" },
-      { "type": "photo", "category": "Training", "caption": "Assistive technology training for blind students with Siloam International (South Korea) at the University of Dar es Salaam", "src": "/images/gallery/training-1.jpeg" },
-      { "type": "photo", "category": "Community", "caption": "Learners at Uhuru Mchanganyiko Primary School during DEF's outreach visit", "src": "/images/gallery/activity-2.jpeg" },
-      { "type": "photo", "category": "Training", "caption": "Hands-on computer skills training as part of the assistive technology program", "src": "/images/gallery/training-2.jpeg" },
-      { "type": "photo", "category": "Community", "caption": "Raising community awareness on disability rights during the school visit", "src": "/images/gallery/activity-3.jpeg" },
-      { "type": "photo", "category": "Training", "caption": "A student practices with a BrailleSense device during the training", "src": "/images/gallery/training-3.jpeg" },
-      { "type": "photo", "category": "Community", "caption": "DEF team supporting vulnerable learners at Uhuru Mchanganyiko Primary School", "src": "/images/gallery/activity-4.jpeg" },
-      { "type": "photo", "category": "Training", "caption": "Building digital literacy and independent learning skills", "src": "/images/gallery/training-4.jpeg" },
-      { "type": "photo", "category": "Community", "caption": "Promoting disability inclusion at the school donation visit", "src": "/images/gallery/activity-5.jpeg" },
-      { "type": "photo", "category": "Training", "caption": "Blind students learning assistive technology at the University of Dar es Salaam", "src": "/images/gallery/training-5.jpeg" },
-      { "type": "photo", "category": "Community", "caption": "DEF and community members at the Uhuru Mchanganyiko Primary School outreach", "src": "/images/gallery/activity-6.jpeg" },
-      { "type": "photo", "category": "Training", "caption": "BrailleSense and computer skills training session with Siloam International", "src": "/images/gallery/training-6.jpeg" },
-      { "type": "photo", "category": "Community", "caption": "DEF donating basic needs items to learners", "src": "/images/gallery/activity-7.jpeg" },
-      { "type": "photo", "category": "Training", "caption": "Improving access to education through assistive technology", "src": "/images/gallery/training-7.jpeg" },
-      { "type": "photo", "category": "Community", "caption": "Community awareness activity at Uhuru Mchanganyiko Primary School", "src": "/images/gallery/activity-8.jpeg" },
-      { "type": "photo", "category": "Training", "caption": "A trainee at a computer workstation during the assistive technology program", "src": "/images/gallery/training-8.jpeg" },
-      { "type": "photo", "category": "Community", "caption": "Learners and DEF staff during the school outreach visit", "src": "/images/gallery/activity-9.jpeg" }
-    ]
+    "filterAll": "All"
   },
   "publications": {
     "hero": {
@@ -234,7 +212,6 @@
       "title": "Our Partners",
       "sub": "Working alongside government, NGOs, universities, and the private sector."
     },
-    "items": ["Partner Organization 1", "Partner Organization 2", "Partner Organization 3", "Partner Organization 4", "Partner Organization 5", "Partner Organization 6"],
     "becomePartner": {
       "title": "Become a Partner",
       "body": "We collaborate with government bodies, NGOs, universities, and the private sector to widen our impact. Reach out to explore a partnership.",

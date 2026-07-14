@@ -4,20 +4,29 @@ import { prisma } from '@/lib/prisma';
 export const dynamic = 'force-dynamic';
 
 export default async function AdminDashboard() {
-  const [contactCount, volunteerCount, donateCount, newsCount, publicationCount] = await Promise.all([
-    prisma.contactSubmission.count(),
-    prisma.volunteerApplication.count(),
-    prisma.donationIntent.count(),
-    prisma.newsPost.count(),
-    prisma.publication.count(),
-  ]);
+  const [contactCount, volunteerCount, donateCount, newsCount, publicationCount, teamCount, galleryCount, projectCount, partnerCount] =
+    await Promise.all([
+      prisma.contactSubmission.count(),
+      prisma.volunteerApplication.count(),
+      prisma.donationIntent.count(),
+      prisma.newsPost.count(),
+      prisma.publication.count(),
+      prisma.teamMember.count(),
+      prisma.galleryItem.count(),
+      prisma.project.count(),
+      prisma.partner.count(),
+    ]);
 
   const cards = [
+    { label: 'News posts', count: newsCount, href: '/admin/news' },
+    { label: 'Publications', count: publicationCount, href: '/admin/publications' },
+    { label: 'Team members', count: teamCount, href: '/admin/team' },
+    { label: 'Gallery items', count: galleryCount, href: '/admin/gallery' },
+    { label: 'Projects', count: projectCount, href: '/admin/projects' },
+    { label: 'Partners', count: partnerCount, href: '/admin/partners' },
     { label: 'Contact messages', count: contactCount, href: '/admin/submissions?type=contact' },
     { label: 'Volunteer applications', count: volunteerCount, href: '/admin/submissions?type=volunteer' },
     { label: 'Donation intents', count: donateCount, href: '/admin/submissions?type=donate' },
-    { label: 'News posts', count: newsCount, href: '/admin/news' },
-    { label: 'Publications', count: publicationCount, href: '/admin/publications' },
   ];
 
   return (

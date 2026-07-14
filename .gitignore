@@ -13,3 +13,6 @@ next-env.d.ts
 # Original source media dropped in by the org — copied into public/images/gallery
 # and public/videos with clean filenames; kept out of git to avoid duplicating ~15MB.
 /media
+
+# Local-dev-only file upload fallback (used when BLOB_READ_WRITE_TOKEN isn't set)
+/public/uploads

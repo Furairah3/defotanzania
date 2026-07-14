@@ -6,10 +6,13 @@ import ProgramsPreview from '@/components/home/ProgramsPreview';
 import NewsPreview from '@/components/home/NewsPreview';
 import PartnersStrip from '@/components/home/PartnersStrip';
 import CTABanner from '@/components/home/CTABanner';
+import { getPublishedPartners, localizePartner } from '@/lib/content';
 
 export const dynamic = 'force-dynamic';
 
-export default function HomePage({ params: { locale } }: { params: { locale: string } }) {
+export default async function HomePage({ params: { locale } }: { params: { locale: string } }) {
+  const partners = (await getPublishedPartners()).map(localizePartner);
+
   return (
     <>
       <Hero />
@@ -18,7 +21,7 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
       <FocusAreas />
       <ProgramsPreview />
       <NewsPreview locale={locale} />
-      <PartnersStrip />
+      <PartnersStrip partners={partners} />
       <CTABanner />
     </>
   );

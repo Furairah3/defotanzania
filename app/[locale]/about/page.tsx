@@ -5,6 +5,9 @@ import Section from '@/components/ui/Section';
 import Reveal from '@/components/motion/Reveal';
 import Card from '@/components/ui/Card';
 import PlaceholderImage from '@/components/media/PlaceholderImage';
+import { heroTitleMetadata } from '@/lib/pageMetadata';
+
+export const generateMetadata = heroTitleMetadata('about');
 
 export default function AboutPage() {
   const t = useTranslations('about');

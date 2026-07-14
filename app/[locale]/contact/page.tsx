@@ -5,6 +5,9 @@ import Section from '@/components/ui/Section';
 import Reveal from '@/components/motion/Reveal';
 import ContactForm from '@/components/forms/ContactForm';
 import { WHATSAPP_CHAT_LINK } from '@/lib/orgInfo';
+import { heroTitleMetadata } from '@/lib/pageMetadata';
+
+export const generateMetadata = heroTitleMetadata('contact');
 
 export default function ContactPage() {
   const t = useTranslations('contact');
@@ -76,7 +79,7 @@ export default function ContactPage() {
             </div>
           </Reveal>
           <Reveal direction="left" delay={0.1}>
-            <div className="rounded-2xl bg-white p-8 shadow-sm ring-1 ring-slate-100">
+            <div className="rounded-2xl bg-slate-50 p-8 shadow-sm ring-1 ring-slate-200">
               <ContactForm />
             </div>
           </Reveal>

@@ -4,8 +4,10 @@ import PageHero from '@/components/ui/PageHero';
 import Section from '@/components/ui/Section';
 import Reveal from '@/components/motion/Reveal';
 import { getPublishedPublications, localizePublication } from '@/lib/content';
+import { heroTitleMetadata } from '@/lib/pageMetadata';
 
 export const dynamic = 'force-dynamic';
+export const generateMetadata = heroTitleMetadata('publications');
 
 export default async function PublicationsPage({ params: { locale } }: { params: { locale: string } }) {
   const t = await getTranslations('publications');
@@ -18,7 +20,7 @@ export default async function PublicationsPage({ params: { locale } }: { params:
         <div className="mx-auto max-w-3xl space-y-4">
           {items.map((pub, i) => (
             <Reveal key={pub.id} delay={i * 0.06}>
-              <div className="flex items-center justify-between gap-4 rounded-xl border border-slate-200 p-5 transition-colors hover:border-brand-300">
+              <div className="flex items-center justify-between gap-4 rounded-xl border border-slate-200 bg-slate-50 p-5 transition-colors hover:border-brand-300 hover:bg-white">
                 <div className="flex items-center gap-4">
                   <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-brand-50 text-brand-700">
                     <FileText className="h-5 w-5" aria-hidden="true" />

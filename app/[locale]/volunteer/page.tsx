@@ -5,6 +5,9 @@ import Section from '@/components/ui/Section';
 import Reveal from '@/components/motion/Reveal';
 import Card from '@/components/ui/Card';
 import VolunteerForm from '@/components/forms/VolunteerForm';
+import { heroTitleMetadata } from '@/lib/pageMetadata';
+
+export const generateMetadata = heroTitleMetadata('volunteer');
 
 export default function VolunteerPage() {
   const t = useTranslations('volunteer');
@@ -33,7 +36,7 @@ export default function VolunteerPage() {
       </Section>
       <Section className="bg-slate-50">
         <Reveal className="mx-auto max-w-xl">
-          <div className="rounded-2xl bg-white p-8 shadow-sm">
+          <div className="rounded-2xl bg-slate-50 p-8 shadow-sm">
             <VolunteerForm />
           </div>
         </Reveal>

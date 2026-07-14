@@ -13,6 +13,7 @@ import Button from '@/components/ui/Button';
 const LINKS = [
   ['home', '/'],
   ['about', '/about'],
+  ['team', '/team'],
   ['programs', '/programs'],
   ['projects', '/projects'],
   ['news', '/news'],
@@ -50,12 +51,12 @@ export default function Navbar() {
           <Logo />
         </LocaleLink>
 
-        <div className="hidden items-center gap-6 lg:flex">
+        <div className="hidden items-center divide-x divide-slate-300 lg:flex">
           {LINKS.map(([key, href]) => (
             <LocaleLink
               key={key}
               href={href}
-              className="focus-ring rounded-md text-sm font-medium text-slate-700 transition-colors hover:text-brand-700"
+              className="focus-ring px-3 text-sm font-medium text-slate-700 transition-colors hover:text-brand-700"
             >
               {t(key)}
             </LocaleLink>

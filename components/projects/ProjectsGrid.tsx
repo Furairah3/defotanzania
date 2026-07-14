@@ -5,12 +5,10 @@ import { useTranslations } from 'next-intl';
 import Reveal from '@/components/motion/Reveal';
 import Card from '@/components/ui/Card';
 
-type Project = { title: string; focusArea: string; status: string; body: string };
+type Project = { id: string; title: string; focusArea: string; status: string; body: string };
 
-export default function ProjectsGrid() {
+export default function ProjectsGrid({ items, focusAreas }: { items: Project[]; focusAreas: string[] }) {
   const t = useTranslations('projects');
-  const focusAreas = t.raw('focusAreas') as string[];
-  const items = t.raw('items') as Project[];
   const [active, setActive] = useState<string>('all');
 
   const filtered = useMemo(
@@ -48,7 +46,7 @@ export default function ProjectsGrid() {
 
       <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {filtered.map((project, i) => (
-          <Reveal key={project.title} delay={(i % 3) * 0.08}>
+          <Reveal key={project.id} delay={(i % 3) * 0.08}>
             <Card className="h-full">
               <div className="flex items-center justify-between gap-2">
                 <span className="rounded-full bg-brand-50 px-3 py-1 text-xs font-semibold text-brand-700">

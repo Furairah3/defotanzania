@@ -7,6 +7,7 @@
   "nav": {
     "home": "Nyumbani",
     "about": "Kuhusu Sisi",
+    "team": "Timu Yetu",
     "programs": "Mipango Yetu",
     "projects": "Miradi",
     "news": "Habari na Blogu",
@@ -126,6 +127,12 @@
       "body": "Watoto, vijana, wanawake, wanaume, na wazee wenye ulemavu, familia zao, jamii, shule, taasisi, na watunga sera."
     }
   },
+  "team": {
+    "hero": {
+      "title": "Timu Yetu",
+      "sub": "Watu wanaoongoza kazi ya DEF katika haki, ujumuishaji, na uwezeshaji wa watu wenye ulemavu."
+    }
+  },
   "programs": {
     "hero": {
       "title": "Mipango Yetu",
@@ -157,14 +164,6 @@
       "Utafiti na utetezi wa sera",
       "Afya na ustawi",
       "Jinsia na ujumuishaji wa ulemavu"
-    ],
-    "items": [
-      { "title": "Ziara za Shule na Ujumuishaji", "focusArea": "Elimu jumuishi", "status": "Unaendelea", "body": "DEF hutembelea shule kama Shule ya Msingi Uhuru Mchanganyiko kutoa vifaa vya mahitaji ya msingi, kusaidia wanafunzi wenye mazingira magumu, na kuhamasisha jamii kuhusu haki na uwezo wa watu wenye ulemavu." },
-      { "title": "Chuo cha Uongozi kwa Vijana", "focusArea": "Uongozi wa vijana", "status": "Unaendelea", "body": "Mfumo wa mafunzo unaoandaa viongozi vijana wenye ulemavu kwa nafasi za kiraia na kisiasa." },
-      { "title": "Kongamano la Kitaifa la DEF", "focusArea": "Uhamasishaji wa jamii", "status": "Kila mwaka", "body": "Mkusanyiko wa kila mwaka na sherehe ya tuzo inayoenzi mafanikio ya watu wenye ulemavu." },
-      { "title": "Ujuzi wa Kidijitali kwa Kujitegemea", "focusArea": "Teknolojia inayofikika na ubunifu", "status": "Unaendelea", "body": "Kwa ushirikiano na Siloam International (Korea Kusini), DEF ilitoa mafunzo kwa wanafunzi wasioona katika Chuo Kikuu cha Dar es Salaam kuhusu teknolojia saidizi ikiwemo kifaa cha BrailleSense na ujuzi wa kompyuta — kujenga ujuzi wa kidijitali, kujifunza kwa kujitegemea, na upatikanaji wa elimu." },
-      { "title": "Kikundi cha Kiuchumi cha Wanawake wenye Ulemavu", "focusArea": "Jinsia na ujumuishaji wa ulemavu", "status": "Majaribio", "body": "Vikundi vya akiba na ushauri wa ujasiriamali kwa wanawake wenye ulemavu." },
-      { "title": "Mijadala ya Utetezi wa Sera", "focusArea": "Utafiti na utetezi wa sera", "status": "Unaendelea", "body": "Kuwakutanisha watunga sera na jamii ya walemavu ili kuimarisha sheria za ulinzi." }
     ]
   },
   "news": {
@@ -178,28 +177,7 @@
       "title": "Picha na Video",
       "sub": "Picha na video kutoka ziara zetu za shule, mafunzo ya teknolojia saidizi, na uhamasishaji wa jamii."
     },
-    "filterAll": "Zote",
-    "categories": ["Jamii", "Mafunzo"],
-    "items": [
-      { "type": "video", "category": "Jamii", "caption": "Shughuli za DEF za uhamasishaji wa jamii", "src": "/videos/community-outreach.mp4" },
-      { "type": "photo", "category": "Jamii", "caption": "DEF yatembelea Shule ya Msingi Uhuru Mchanganyiko kutoa vifaa vya mahitaji ya msingi na kusaidia wanafunzi wenye mazingira magumu", "src": "/images/gallery/activity-1.jpeg" },
-      { "type": "photo", "category": "Mafunzo", "caption": "Mafunzo ya teknolojia saidizi kwa wanafunzi wasioona kwa ushirikiano na Siloam International (Korea Kusini) katika Chuo Kikuu cha Dar es Salaam", "src": "/images/gallery/training-1.jpeg" },
-      { "type": "photo", "category": "Jamii", "caption": "Wanafunzi wa Shule ya Msingi Uhuru Mchanganyiko wakati wa ziara ya DEF", "src": "/images/gallery/activity-2.jpeg" },
-      { "type": "photo", "category": "Mafunzo", "caption": "Mafunzo ya vitendo ya ujuzi wa kompyuta kama sehemu ya mpango wa teknolojia saidizi", "src": "/images/gallery/training-2.jpeg" },
-      { "type": "photo", "category": "Jamii", "caption": "Kuhamasisha jamii kuhusu haki za walemavu wakati wa ziara ya shule", "src": "/images/gallery/activity-3.jpeg" },
-      { "type": "photo", "category": "Mafunzo", "caption": "Mwanafunzi akijifunza kutumia kifaa cha BrailleSense wakati wa mafunzo", "src": "/images/gallery/training-3.jpeg" },
-      { "type": "photo", "category": "Jamii", "caption": "Timu ya DEF ikiwasaidia wanafunzi wenye mazingira magumu katika Shule ya Uhuru Mchanganyiko", "src": "/images/gallery/activity-4.jpeg" },
-      { "type": "photo", "category": "Mafunzo", "caption": "Kujenga ujuzi wa kidijitali na uwezo wa kujifunza kwa kujitegemea", "src": "/images/gallery/training-4.jpeg" },
-      { "type": "photo", "category": "Jamii", "caption": "Kukuza ujumuishaji wa walemavu wakati wa ziara ya kutoa misaada shuleni", "src": "/images/gallery/activity-5.jpeg" },
-      { "type": "photo", "category": "Mafunzo", "caption": "Wanafunzi wasioona wakijifunza teknolojia saidizi katika Chuo Kikuu cha Dar es Salaam", "src": "/images/gallery/training-5.jpeg" },
-      { "type": "photo", "category": "Jamii", "caption": "DEF na wanajamii katika ziara ya Shule ya Msingi Uhuru Mchanganyiko", "src": "/images/gallery/activity-6.jpeg" },
-      { "type": "photo", "category": "Mafunzo", "caption": "Mafunzo ya BrailleSense na ujuzi wa kompyuta kwa ushirikiano na Siloam International", "src": "/images/gallery/training-6.jpeg" },
-      { "type": "photo", "category": "Jamii", "caption": "DEF ikitoa vifaa vya mahitaji ya msingi kwa wanafunzi", "src": "/images/gallery/activity-7.jpeg" },
-      { "type": "photo", "category": "Mafunzo", "caption": "Kuboresha upatikanaji wa elimu kupitia teknolojia saidizi", "src": "/images/gallery/training-7.jpeg" },
-      { "type": "photo", "category": "Jamii", "caption": "Shughuli ya uhamasishaji wa jamii katika Shule ya Msingi Uhuru Mchanganyiko", "src": "/images/gallery/activity-8.jpeg" },
-      { "type": "photo", "category": "Mafunzo", "caption": "Mshiriki kwenye kituo cha kompyuta wakati wa mpango wa teknolojia saidizi", "src": "/images/gallery/training-8.jpeg" },
-      { "type": "photo", "category": "Jamii", "caption": "Wanafunzi na wafanyakazi wa DEF wakati wa ziara ya shule", "src": "/images/gallery/activity-9.jpeg" }
-    ]
+    "filterAll": "Zote"
   },
   "publications": {
     "hero": {
@@ -213,7 +191,6 @@
       "title": "Washirika Wetu",
       "sub": "Tunafanya kazi pamoja na serikali, mashirika, vyuo vikuu, na sekta binafsi."
     },
-    "items": ["Shirika Mshirika 1", "Shirika Mshirika 2", "Shirika Mshirika 3", "Shirika Mshirika 4", "Shirika Mshirika 5", "Shirika Mshirika 6"],
     "becomePartner": {
       "title": "Kuwa Mshirika",
       "body": "Tunashirikiana na taasisi za serikali, mashirika, vyuo vikuu, na sekta binafsi kupanua matokeo yetu. Wasiliana nasi kuchunguza ushirikiano.",

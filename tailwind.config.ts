@@ -42,6 +42,8 @@ const config: Config = {
         float: 'float 6s ease-in-out infinite',
         'spin-slow': 'spin 18s linear infinite',
         marquee: 'marquee 26s linear infinite',
+        'marquee-reverse': 'marquee-reverse 32s linear infinite',
+        'marquee-fast': 'marquee 40s linear infinite',
       },
       keyframes: {
         'gradient-shift': {
@@ -55,6 +57,10 @@ const config: Config = {
         marquee: {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(-50%)' },
+        },
+        'marquee-reverse': {
+          '0%': { transform: 'translateX(-50%)' },
+          '100%': { transform: 'translateX(0)' },
         },
       },
     },

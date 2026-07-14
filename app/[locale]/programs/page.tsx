@@ -3,6 +3,9 @@ import PageHero from '@/components/ui/PageHero';
 import Section from '@/components/ui/Section';
 import Reveal from '@/components/motion/Reveal';
 import Card from '@/components/ui/Card';
+import { heroTitleMetadata } from '@/lib/pageMetadata';
+
+export const generateMetadata = heroTitleMetadata('programs');
 
 export default function ProgramsPage() {
   const t = useTranslations('programs');

@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import Section from '@/components/ui/Section';
@@ -8,6 +9,16 @@ import { ArrowLeft } from 'lucide-react';
 import { getNewsPostBySlug, localizeNewsPost } from '@/lib/content';
 
 export const dynamic = 'force-dynamic';
+
+export async function generateMetadata({
+  params: { locale, slug },
+}: {
+  params: { locale: string; slug: string };
+}): Promise<Metadata> {
+  const record = await getNewsPostBySlug(slug);
+  if (!record) return {};
+  return { title: localizeNewsPost(record, locale).title };
+}
 
 export default async function NewsPostPage({
   params: { locale, slug },

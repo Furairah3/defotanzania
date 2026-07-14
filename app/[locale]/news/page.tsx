@@ -6,8 +6,10 @@ import Card from '@/components/ui/Card';
 import PlaceholderImage from '@/components/media/PlaceholderImage';
 import LocaleLink from '@/components/layout/LocaleLink';
 import { getPublishedNewsPosts, localizeNewsPost } from '@/lib/content';
+import { heroTitleMetadata } from '@/lib/pageMetadata';
 
 export const dynamic = 'force-dynamic';
+export const generateMetadata = heroTitleMetadata('news');
 
 export default async function NewsPage({ params: { locale } }: { params: { locale: string } }) {
   const t = await getTranslations('news');

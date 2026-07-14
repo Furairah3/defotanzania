@@ -8,6 +8,10 @@ const LINKS = [
   { href: '/admin', label: 'Dashboard' },
   { href: '/admin/news', label: 'News' },
   { href: '/admin/publications', label: 'Publications' },
+  { href: '/admin/team', label: 'Team' },
+  { href: '/admin/gallery', label: 'Gallery' },
+  { href: '/admin/projects', label: 'Projects' },
+  { href: '/admin/partners', label: 'Partners' },
   { href: '/admin/submissions', label: 'Submissions' },
 ];
 
@@ -23,10 +27,10 @@ export default function AdminNav() {
 
   return (
     <header className="border-b border-slate-200 bg-white">
-      <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
-        <div className="flex items-center gap-8">
+      <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-6 py-4">
+        <div className="flex flex-wrap items-center gap-x-8 gap-y-3">
           <Logo height={32} />
-          <nav className="hidden gap-1 sm:flex" aria-label="Admin">
+          <nav className="flex flex-wrap gap-1" aria-label="Admin">
             {LINKS.map((link) => (
               <Link
                 key={link.href}
