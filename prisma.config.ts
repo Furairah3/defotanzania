@@ -10,6 +10,9 @@ export default defineConfig({
     seed: "tsx prisma/seed.ts",
   },
   datasource: {
-    url: process.env["DATABASE_URL"],
+    // Migrations need a session-style connection (advisory locks aren't reliable
+    // through a transaction-mode pooler). MIGRATE_DATABASE_URL is only set in
+    // production; locally DATABASE_URL already points straight at the dev database.
+    url: process.env["MIGRATE_DATABASE_URL"] || process.env["DATABASE_URL"],
   },
 });

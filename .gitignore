@@ -16,3 +16,6 @@ next-env.d.ts
 
 # Local-dev-only file upload fallback (used when BLOB_READ_WRITE_TOKEN isn't set)
 /public/uploads
+
+.vercel
+.env*

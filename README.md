@@ -68,8 +68,12 @@ Uploads go through `lib/storage.ts`:
 
 - Schema lives in `prisma/schema.prisma`; models: `ContactSubmission`, `VolunteerApplication`, `DonationIntent`, `NewsPost`, `Publication`, `TeamMember`, `GalleryItem`, `Project`, `Partner`.
 - This project uses Prisma 7's driver-adapter architecture (`@prisma/adapter-pg`), so `DATABASE_URL` is read directly by the app at runtime (`lib/prisma.ts`) — no extra config needed beyond setting the env var.
-- To deploy (e.g. on [Vercel](https://vercel.com)): push to a Git repository, import the project, set `DATABASE_URL`, `ADMIN_PASSWORD`, and `ADMIN_SESSION_SECRET` as environment variables, and add `prisma migrate deploy` as a build step (or run it once manually against the production database) before the first deploy.
-- Local Docker Postgres (see step 1 above) is for development only — point `DATABASE_URL` at your real Supabase/Neon connection string for production.
+- `npm run build` runs `prisma migrate deploy` before `next build`, so pushing to production applies any pending migrations automatically (see `prisma.config.ts`).
+- To deploy (e.g. on [Vercel](https://vercel.com)): push to a Git repository, import the project, and set these environment variables:
+  - `DATABASE_URL` — **must be the Transaction pooler** connection string (Supabase: port 6543). The Session pooler (port 5432) caps concurrent connections at 15, which real serverless traffic exhausts almost immediately (`EMAXCONNSESSION` errors).
+  - `MIGRATE_DATABASE_URL` — the Session pooler connection string (port 5432), used only for `prisma migrate deploy` — migrations need session-style advisory locks that a transaction-mode pooler doesn't reliably support.
+  - `ADMIN_PASSWORD`, `ADMIN_SESSION_SECRET` (see Admin Panel section above).
+- Local Docker Postgres (see step 1 above) is for development only — point `DATABASE_URL` at your real Supabase/Neon connection string for production; `MIGRATE_DATABASE_URL` isn't needed locally.
 
 ## Branding
 
