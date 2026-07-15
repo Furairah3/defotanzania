@@ -90,7 +90,9 @@ Uploads go through `lib/storage.ts`:
 
 ## Placeholder / Sample Content
 
-- **Team, Projects, Partners, Gallery** — now live in the database and are fully editable at `/admin` (see above). They currently hold sample/starter entries (seeded by `prisma/seed.ts`) — edit or delete them from the admin panel once DEF supplies the real people, projects, and partner logos.
+- **Team, Projects, Gallery, Partners, News, Publications** — all live in the database, fully editable at `/admin` (see above).
+  - **Projects** and **Gallery** are already real — seeded from DEF's actual programs and real event photos/captions (`prisma/seed.ts`).
+  - **Team, Partners, News, and Publications had no verified real content**, so their earlier sample/placeholder entries were unpublished (not deleted — still there in draft form to edit) and are no longer seeded. Add DEF's real staff, partner orgs, news posts, and reports through `/admin` — they'll appear on the live site as soon as you publish them.
 - **Impact stats** (Home page) — illustrative numbers, flagged with a note under the stats section; edit in `i18n/en.json` / `i18n/sw.json` under `home.stats`.
 - **Page-header background photos** — the auto-scrolling images behind each page's big header currently use temporary CC0 stock photos (`lib/stockImages.ts`, `public/images/stock/`) since not every page has real DEF photos yet. The Gallery page already passes its real DB-backed photos into `<PageHero images={...}>` instead — do the same for other pages once real photos exist for them.
 - **Donate giving tiers and bank/mobile-money details** — placeholder amounts and a "details coming soon" note (no live payment processor is wired up — the Donate form just records the donor's intent so the team can follow up manually). Edit in `i18n/*.json` under `donate.tiers`/`donate.bankDetails`.
