@@ -11,7 +11,6 @@ import PageTransition from '@/components/motion/PageTransition';
 import WhatsAppButton from '@/components/layout/WhatsAppButton';
 import ScrollProgress from '@/components/motion/ScrollProgress';
 import '../globals.css';
-import type { Metadata } from 'next';
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -72,10 +71,35 @@ export default async function LocaleLayout({
 }) {
   if (!locales.includes(locale as (typeof locales)[number])) notFound();
   const messages = await getMessages();
+  const organizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'Disability Enlightenment Foundation',
+  alternateName: 'DEF Tanzania',
+  url: 'https://defotanzania.or.tz',
+  logo: 'https://defotanzania.or.tz/images/brand/logo.png',
+  description:
+    'Disability Enlightenment Foundation (DEF Tanzania) promotes disability rights, inclusion, empowerment, and equal opportunities for persons with disabilities across Tanzania.',
+  telephone: '+255 683 400 781',
+  email: 'defotanzania@gmail.com',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: 'Palm Village Street, Mikocheni',
+    addressLocality: 'Dar es Salaam',
+    addressCountry: 'TZ',
+    postalCode: '2125',
+  },
+};
 
   return (
     <html lang={locale}>
       <body>
+        <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify(organizationSchema),
+      }}
+    />
         <NextIntlClientProvider messages={messages}>
           <Preloader />
           <ScrollProgress />
