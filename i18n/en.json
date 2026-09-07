@@ -1,10 +1,11 @@
+
 {
   "meta": {
-  "siteName": "Disability Enlightenment Foundation",
-  "siteShort": "DEF Tanzania",
-  "description": "Disability Enlightenment Foundation (DEF Tanzania) promotes disability rights, inclusion, empowerment, and equal opportunities for persons with disabilities across Tanzania.",
-  "keywords": "DEF Tanzania, Disability Enlightenment Foundation, disability rights Tanzania, disability inclusion Tanzania, persons with disabilities Tanzania, disability empowerment, inclusive education Tanzania"
-},
+    "siteName": "Disability Enlightenment Foundation",
+    "siteShort": "DEF Tanzania",
+    "description": "Disability Enlightenment Foundation (DEF Tanzania) promotes disability rights, inclusion, empowerment, and equal opportunities for persons with disabilities across Tanzania.",
+    "keywords": "DEF Tanzania, Disability Enlightenment Foundation, disability rights Tanzania, disability inclusion Tanzania, persons with disabilities Tanzania, disability empowerment, inclusive education Tanzania"
+  },
   "nav": {
     "home": "Home",
     "about": "About Us",
@@ -55,10 +56,26 @@
       "title": "Our Impact So Far",
       "note": "Figures below are illustrative placeholders — replace with DEF's verified impact data.",
       "items": [
-        { "value": 500, "suffix": "+", "label": "People reached through campaigns" },
-        { "value": 9, "suffix": "", "label": "Focus areas of work" },
-        { "value": 7, "suffix": "", "label": "Core programs" },
-        { "value": 5, "suffix": "+", "label": "Regions engaged" }
+        {
+          "value": 500,
+          "suffix": "+",
+          "label": "People reached through campaigns"
+        },
+        {
+          "value": 9,
+          "suffix": "",
+          "label": "Focus areas of work"
+        },
+        {
+          "value": 7,
+          "suffix": "",
+          "label": "Core programs"
+        },
+        {
+          "value": 5,
+          "suffix": "+",
+          "label": "Regions engaged"
+        }
       ]
     },
     "focusAreas": {
@@ -83,114 +100,73 @@
       "ctaVolunteer": "Volunteer With Us"
     }
   },
-"about": {
-  "hero": {
-    "title": "About DEF Tanzania",
-    "sub": "Disability Enlightenment Foundation (DEF Tanzania) promotes disability rights, inclusion, empowerment, and equal opportunities for persons with disabilities across Tanzania."
-  },
-  "intro": {
-    "title": "Who We Are",
-    "body": "Disability Enlightenment Foundation (DEF Tanzania) is a non-profit organization dedicated to promoting disability rights, inclusion, empowerment, and equal opportunities for persons with disabilities in Tanzania. We work toward an inclusive society where people with disabilities can participate fully in education, employment, leadership, entrepreneurship, technology, and community development."
-  },
-  "vision": {
-    "label": "Vision Statement",
-    "body": "A self-reliant and inclusive world where persons with disabilities can participate fully and independently in society."
-  },
-  "mission": {
-    "label": "Mission Statement",
-    "body": "To advance disability rights and inclusion through nationwide public awareness campaigns, community meetings, media engagement, leadership initiatives, awards, and an annual conference for persons with disabilities."
-  },
-  "objectives": {
-    "title": "Our Objectives",
-    "items": [
-      "Promote self-reliance, independence, and equal opportunities for persons with disabilities.",
-      "Advocate for the rights and dignity of persons with disabilities in Tanzania.",
-      "Raise public awareness about the abilities, potential, and contributions of persons with disabilities.",
-      "Empower persons with disabilities economically, technologically, socially, and professionally.",
-      "Promote leadership development and participation of persons with disabilities in decision-making and public life."
-    ]
-  },
-  "values": {
-    "title": "Our Core Values",
-    "items": [
-      {
-        "name": "Inclusion",
-        "body": "Every person deserves to participate fully and have a voice in decisions that affect their lives."
-      },
-      {
-        "name": "Equality",
-        "body": "We promote equal rights, equal opportunities, and fair treatment for all."
-      },
-      {
-        "name": "Respect and Dignity",
-        "body": "We recognize the dignity, abilities, and individuality of every person."
-      },
-      {
-        "name": "Integrity",
-        "body": "We act with honesty, transparency, and responsibility in everything we do."
-      },
-      {
-        "name": "Empowerment",
-        "body": "We build skills, confidence, independence, and opportunities rather than dependency."
-      },
-      {
-        "name": "Innovation",
-        "body": "We explore accessible and practical solutions to challenges faced by persons with disabilities."
-      },
-      {
-        "name": "Collaboration",
-        "body": "We work with communities, government, organizations, and partners to create lasting change."
-      },
-      {
-        "name": "Accountability",
-        "body": "We remain responsible to the communities and people we serve."
-      }
-    ]
-  },
-  "whoWeServe": {
-    "title": "Who We Serve",
-    "body": "We serve children, youth, women, men, and older persons with disabilities, as well as their families, communities, schools, institutions, organizations, and policymakers across Tanzania."
-  }
-},
-
+  "about": {
+    "hero": {
+      "title": "About DEF Tanzania",
+      "sub": "Disability Enlightenment Foundation (DEF Tanzania) promotes disability rights, inclusion, empowerment, and equal opportunities for persons with disabilities across Tanzania."
+    },
     "intro": {
       "title": "Who We Are",
-      "body": "Disability Enlightenment Foundation (DEF) is a non-profit organization dedicated to promoting the rights, inclusion, empowerment, and equal opportunities of persons with disabilities. We work to create an inclusive society where every person with a disability can participate fully in education, employment, leadership, entrepreneurship, technology, and community development."
+      "body": "Disability Enlightenment Foundation (DEF Tanzania) is a non-profit organization dedicated to promoting disability rights, inclusion, empowerment, and equal opportunities for persons with disabilities in Tanzania. We work toward an inclusive society where people with disabilities can participate fully in education, employment, leadership, entrepreneurship, technology, and community development."
     },
     "vision": {
       "label": "Vision Statement",
-      "body": "A self dependence world for the people with disability."
+      "body": "A self-reliant and inclusive world where persons with disabilities can participate fully and independently in society."
     },
     "mission": {
       "label": "Mission Statement",
-      "body": "To initiate a national wide campaign through public meetings and media tours, introducing awards and yearly conference of the people with disability."
+      "body": "To advance disability rights and inclusion through nationwide public awareness campaigns, community meetings, media engagement, leadership initiatives, awards, and an annual conference for persons with disabilities."
     },
     "objectives": {
       "title": "Our Objectives",
       "items": [
-        "Promote self dependence notions to the disabled",
-        "Advocate for the rights of the people with disability",
-        "Raise awareness to the society about the abilities and uniqueness of disabled",
-        "Empower all disabled people economically, technologically and socially",
-        "Promote leadership skills for acquisition of political positions"
+        "Promote self-reliance, independence, and equal opportunities for persons with disabilities.",
+        "Advocate for the rights and dignity of persons with disabilities in Tanzania.",
+        "Raise public awareness about the abilities, potential, and contributions of persons with disabilities.",
+        "Empower persons with disabilities economically, technologically, socially, and professionally.",
+        "Promote leadership development and participation of persons with disabilities in decision-making and public life."
       ]
     },
     "values": {
       "title": "Our Core Values",
       "items": [
-        { "name": "Inclusion", "body": "Every voice belongs in the room where decisions are made." },
-        { "name": "Equality", "body": "Equal rights and equal opportunity, without exception." },
-        { "name": "Respect and dignity", "body": "Every person is treated with the dignity they deserve." },
-        { "name": "Integrity", "body": "We hold ourselves accountable to honesty in all we do." },
-        { "name": "Empowerment", "body": "We build capacity, not dependency." },
-        { "name": "Innovation", "body": "We seek new, accessible ways to solve old problems." },
-        { "name": "Collaboration", "body": "Change happens faster together." },
-        { "name": "Accountability", "body": "We answer to the communities we serve." }
+        {
+          "name": "Inclusion",
+          "body": "Every person deserves to participate fully and have a voice in decisions that affect their lives."
+        },
+        {
+          "name": "Equality",
+          "body": "We promote equal rights, equal opportunities, and fair treatment for all."
+        },
+        {
+          "name": "Respect and Dignity",
+          "body": "We recognize the dignity, abilities, and individuality of every person."
+        },
+        {
+          "name": "Integrity",
+          "body": "We act with honesty, transparency, and responsibility in everything we do."
+        },
+        {
+          "name": "Empowerment",
+          "body": "We build skills, confidence, independence, and opportunities rather than dependency."
+        },
+        {
+          "name": "Innovation",
+          "body": "We explore accessible and practical solutions to challenges faced by persons with disabilities."
+        },
+        {
+          "name": "Collaboration",
+          "body": "We work with communities, government, organizations, and partners to create lasting change."
+        },
+        {
+          "name": "Accountability",
+          "body": "We remain responsible to the communities and people we serve."
+        }
       ]
     },
     "whoWeServe": {
       "title": "Who We Serve",
-      "body": "Children, youth, women, men, and older persons with disabilities, their families, communities, schools, institutions, and policymakers."
+      "body": "We serve children, youth, women, men, and older persons with disabilities, as well as their families, communities, schools, institutions, organizations, and policymakers across Tanzania."
     }
   },
   "team": {
@@ -292,10 +268,22 @@
     "opportunities": {
       "title": "Ways to Volunteer",
       "items": [
-        { "name": "Campaign Support", "body": "Help organize and run public meetings and awareness events." },
-        { "name": "Mentorship", "body": "Mentor youth in the Leadership Academy or entrepreneurship program." },
-        { "name": "Media & Content", "body": "Support photography, videography, writing, or social media." },
-        { "name": "Event Logistics", "body": "Help plan the annual conference and awards ceremony." }
+        {
+          "name": "Campaign Support",
+          "body": "Help organize and run public meetings and awareness events."
+        },
+        {
+          "name": "Mentorship",
+          "body": "Mentor youth in the Leadership Academy or entrepreneurship program."
+        },
+        {
+          "name": "Media & Content",
+          "body": "Support photography, videography, writing, or social media."
+        },
+        {
+          "name": "Event Logistics",
+          "body": "Help plan the annual conference and awards ceremony."
+        }
       ]
     },
     "form": {
@@ -316,10 +304,22 @@
     "tiers": {
       "title": "Ways to Give",
       "items": [
-        { "amount": "20,000 TZS", "impact": "Supports outreach materials for a community awareness meeting." },
-        { "amount": "50,000 TZS", "impact": "Sponsors a training session in the Youth Leadership Academy." },
-        { "amount": "150,000 TZS", "impact": "Helps fund a public meeting during our media tour." },
-        { "amount": "500,000 TZS", "impact": "Contributes toward the annual national conference and awards." }
+        {
+          "amount": "20,000 TZS",
+          "impact": "Supports outreach materials for a community awareness meeting."
+        },
+        {
+          "amount": "50,000 TZS",
+          "impact": "Sponsors a training session in the Youth Leadership Academy."
+        },
+        {
+          "amount": "150,000 TZS",
+          "impact": "Helps fund a public meeting during our media tour."
+        },
+        {
+          "amount": "500,000 TZS",
+          "impact": "Contributes toward the annual national conference and awards."
+        }
       ],
       "note": "Amounts are illustrative — confirm real giving tiers and impact figures with DEF before launch."
     },
