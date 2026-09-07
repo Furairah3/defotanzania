@@ -22,12 +22,43 @@ export async function generateMetadata({
   params: { locale: string };
 }): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: 'meta' });
+
+  const baseUrl = 'https://defotanzania.or.tz';
+  const canonicalUrl = `${baseUrl}/${locale}`;
+
   return {
+    metadataBase: new URL(baseUrl),
+
     title: {
       default: t('siteName'),
       template: `%s · ${t('siteShort')}`,
     },
-    description: t('placeholderNotice'),
+
+    description: t('description'),
+
+    keywords: t('keywords').split(', '),
+
+    alternates: {
+      canonical: canonicalUrl,
+      languages: {
+        en: `${baseUrl}/en`,
+        sw: `${baseUrl}/sw`,
+      },
+    },
+
+    openGraph: {
+      type: 'website',
+      siteName: t('siteName'),
+      title: t('siteName'),
+      description: t('description'),
+      url: canonicalUrl,
+      locale: locale === 'sw' ? 'sw_TZ' : 'en_TZ',
+    },
+
+    robots: {
+      index: true,
+      follow: true,
+    },
   };
 }
 
