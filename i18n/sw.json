@@ -1,9 +1,10 @@
 {
   "meta": {
-    "siteName": "Taasisi ya Kuelimisha Watu wenye Ulemavu",
-    "siteShort": "DEF Tanzania",
-    "placeholderNotice": "Maudhui ya mfano — yatabadilishwe na taarifa halisi za DEF kabla ya uzinduzi."
-  },
+  "siteName": "Taasisi ya Kuelimisha Watu wenye Ulemavu",
+  "siteShort": "DEF Tanzania",
+  "description": "Taasisi ya Kuelimisha Watu wenye Ulemavu (DEF Tanzania) inakuza haki, ujumuishaji, uwezeshaji na fursa sawa kwa watu wenye ulemavu nchini Tanzania.",
+  "keywords": "DEF Tanzania, Taasisi ya Kuelimisha Watu wenye Ulemavu, haki za watu wenye ulemavu Tanzania, ujumuishaji wa watu wenye ulemavu, uwezeshaji wa watu wenye ulemavu, elimu jumuishi Tanzania"
+},
   "nav": {
     "home": "Nyumbani",
     "about": "Kuhusu Sisi",
