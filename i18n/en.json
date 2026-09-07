@@ -83,11 +83,76 @@
       "ctaVolunteer": "Volunteer With Us"
     }
   },
-  "about": {
-    "hero": {
-      "title": "About Us",
-      "sub": "Promoting the rights, inclusion, empowerment, and equal opportunity of persons with disabilities."
-    },
+"about": {
+  "hero": {
+    "title": "About DEF Tanzania",
+    "sub": "Disability Enlightenment Foundation (DEF Tanzania) promotes disability rights, inclusion, empowerment, and equal opportunities for persons with disabilities across Tanzania."
+  },
+  "intro": {
+    "title": "Who We Are",
+    "body": "Disability Enlightenment Foundation (DEF Tanzania) is a non-profit organization dedicated to promoting disability rights, inclusion, empowerment, and equal opportunities for persons with disabilities in Tanzania. We work toward an inclusive society where people with disabilities can participate fully in education, employment, leadership, entrepreneurship, technology, and community development."
+  },
+  "vision": {
+    "label": "Vision Statement",
+    "body": "A self-reliant and inclusive world where persons with disabilities can participate fully and independently in society."
+  },
+  "mission": {
+    "label": "Mission Statement",
+    "body": "To advance disability rights and inclusion through nationwide public awareness campaigns, community meetings, media engagement, leadership initiatives, awards, and an annual conference for persons with disabilities."
+  },
+  "objectives": {
+    "title": "Our Objectives",
+    "items": [
+      "Promote self-reliance, independence, and equal opportunities for persons with disabilities.",
+      "Advocate for the rights and dignity of persons with disabilities in Tanzania.",
+      "Raise public awareness about the abilities, potential, and contributions of persons with disabilities.",
+      "Empower persons with disabilities economically, technologically, socially, and professionally.",
+      "Promote leadership development and participation of persons with disabilities in decision-making and public life."
+    ]
+  },
+  "values": {
+    "title": "Our Core Values",
+    "items": [
+      {
+        "name": "Inclusion",
+        "body": "Every person deserves to participate fully and have a voice in decisions that affect their lives."
+      },
+      {
+        "name": "Equality",
+        "body": "We promote equal rights, equal opportunities, and fair treatment for all."
+      },
+      {
+        "name": "Respect and Dignity",
+        "body": "We recognize the dignity, abilities, and individuality of every person."
+      },
+      {
+        "name": "Integrity",
+        "body": "We act with honesty, transparency, and responsibility in everything we do."
+      },
+      {
+        "name": "Empowerment",
+        "body": "We build skills, confidence, independence, and opportunities rather than dependency."
+      },
+      {
+        "name": "Innovation",
+        "body": "We explore accessible and practical solutions to challenges faced by persons with disabilities."
+      },
+      {
+        "name": "Collaboration",
+        "body": "We work with communities, government, organizations, and partners to create lasting change."
+      },
+      {
+        "name": "Accountability",
+        "body": "We remain responsible to the communities and people we serve."
+      }
+    ]
+  },
+  "whoWeServe": {
+    "title": "Who We Serve",
+    "body": "We serve children, youth, women, men, and older persons with disabilities, as well as their families, communities, schools, institutions, organizations, and policymakers across Tanzania."
+  }
+},
+
     "intro": {
       "title": "Who We Are",
       "body": "Disability Enlightenment Foundation (DEF) is a non-profit organization dedicated to promoting the rights, inclusion, empowerment, and equal opportunities of persons with disabilities. We work to create an inclusive society where every person with a disability can participate fully in education, employment, leadership, entrepreneurship, technology, and community development."
