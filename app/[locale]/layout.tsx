@@ -11,6 +11,7 @@ import PageTransition from '@/components/motion/PageTransition';
 import WhatsAppButton from '@/components/layout/WhatsAppButton';
 import ScrollProgress from '@/components/motion/ScrollProgress';
 import '../globals.css';
+import type { Metadata } from 'next';
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
