@@ -27,7 +27,7 @@ export default function AboutPage() {
             </div>
           </Reveal>
           <Reveal direction="left" delay={0.1}>
-            <PlaceholderImage label="DEF team and community members" aspect="aspect-[4/3]" />
+            <PlaceholderImage label="DEFO team and community members" aspect="aspect-[4/3]" />
           </Reveal>
         </div>
       </Section>
