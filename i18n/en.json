@@ -44,7 +44,7 @@
       "sub": "We run a nationwide campaign of public meetings, media tours, awards, and an annual conference to advance the rights, inclusion, and empowerment of persons with disabilities across Tanzania.",
       "ctaPrimary": "Donate Now",
       "ctaSecondary": "Become a Volunteer",
-      "mediaLabel": "DEF community outreach highlights"
+      "mediaLabel": "DEFO community outreach highlights"
     },
     "pillars": {
       "visionLabel": "Our Vision",
@@ -339,7 +339,7 @@
   "contact": {
     "hero": {
       "title": "Contact Us",
-      "sub": "We'd love to hear from you — partners, donors, volunteers, and the community alike."
+      "sub": "We'd love to hear from you , partners, donors, volunteers, and the community alike."
     },
     "info": {
       "title": "Get in Touch",
@@ -362,7 +362,7 @@
       "message": "Message",
       "success": "Thank you for your message — we'll respond as soon as possible."
     },
-    "mapLabel": "Map: DEF office location"
+    "mapLabel": "Map: DEFO office location"
   },
   "footer": {
     "tagline": "A self-dependent world for the people with disability.",
