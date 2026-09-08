@@ -79,7 +79,7 @@ export default async function LocaleLayout({
   url: 'https://defotanzania.or.tz',
   logo: 'https://defotanzania.or.tz/images/brand/logo.png',
   description:
-    'Disability Enlightenment Foundation (DEF Tanzania) promotes disability rights, inclusion, empowerment, and equal opportunities for persons with disabilities across Tanzania.',
+    'Disability Enlightenment Foundation (DEFOTanzania) promotes disability rights, inclusion, empowerment, and equal opportunities for persons with disabilities across Tanzania.',
   telephone: '+255 683 400 781',
   email: 'defotanzania@gmail.com',
   address: {
