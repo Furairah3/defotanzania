@@ -1,6 +1,10 @@
 'use client';
 
-import { AnimatePresence, motion, useReducedMotion } from 'framer-motion';
+import {
+  AnimatePresence,
+  motion,
+  useReducedMotion,
+} from 'framer-motion';
 import { useLocale, useTranslations } from 'next-intl';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
@@ -40,7 +44,9 @@ export default function Navbar() {
 
     onScroll();
 
-    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('scroll', onScroll, {
+      passive: true,
+    });
 
     return () => {
       window.removeEventListener('scroll', onScroll);
@@ -69,8 +75,8 @@ export default function Navbar() {
     <header
       className={`sticky top-0 z-50 w-full transition-all duration-300 ${
         scrolled
-          ? 'border-b border-slate-200/80 bg-white/95 shadow-md backdrop-blur-lg'
-          : 'border-b border-transparent bg-white'
+          ? 'border-b border-slate-200 bg-white/95 shadow-md backdrop-blur-lg'
+          : 'border-b border-slate-100 bg-white'
       }`}
     >
       <nav
@@ -88,7 +94,7 @@ export default function Navbar() {
 
         {/* Desktop Navigation */}
         <div className="hidden min-w-0 flex-1 items-center justify-center xl:flex">
-          <div className="flex items-center gap-1">
+          <div className="flex items-center gap-1.5">
             {LINKS.map(([key, href]) => {
               const active = isActive(href);
 
@@ -96,20 +102,13 @@ export default function Navbar() {
                 <LocaleLink
                   key={key}
                   href={href}
-                  className={`focus-ring relative whitespace-nowrap rounded-full px-3 py-2 text-[13px] font-semibold transition-all duration-200 ${
+                  className={`focus-ring whitespace-nowrap rounded-xl px-3.5 py-2.5 text-[15px] font-semibold leading-none transition-all duration-200 ${
                     active
-                      ? 'bg-brand-50 text-brand-800'
-                      : 'text-slate-700 hover:bg-slate-50 hover:text-brand-700'
+                      ? 'bg-brand-100 text-brand-900 shadow-sm'
+                      : 'bg-slate-50 text-slate-700 hover:bg-brand-50 hover:text-brand-800'
                   }`}
                 >
                   {t(key)}
-
-                  {active && (
-                    <span
-                      aria-hidden="true"
-                      className="absolute bottom-0.5 left-1/2 h-1 w-1 -translate-x-1/2 rounded-full bg-brand-600"
-                    />
-                  )}
                 </LocaleLink>
               );
             })}
@@ -117,7 +116,7 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Actions */}
-        <div className="hidden shrink-0 items-center gap-2 xl:flex">
+        <div className="hidden shrink-0 items-center gap-2.5 xl:flex">
           {/* Language */}
           <div className="mr-1">
             <LanguageSwitcher />
@@ -127,7 +126,7 @@ export default function Navbar() {
           <Button
             href="/volunteer"
             variant="ghost"
-            className="!rounded-full !bg-slate-50 !px-5 !py-2.5 !text-brand-900 !ring-1 !ring-inset !ring-slate-200 hover:!bg-brand-50 hover:!ring-brand-200"
+            className="!rounded-full !bg-slate-50 !px-5 !py-2.5 !text-[15px] !font-semibold !text-brand-900 !ring-1 !ring-inset !ring-slate-200 hover:!bg-brand-50 hover:!ring-brand-200"
           >
             {t('volunteer')}
           </Button>
@@ -136,7 +135,7 @@ export default function Navbar() {
           <Button
             href="/donate"
             variant="secondary"
-            className="!rounded-full !px-6 !py-2.5"
+            className="!rounded-full !px-6 !py-2.5 !text-[15px] !font-semibold"
           >
             {t('donate')}
           </Button>
@@ -193,7 +192,8 @@ export default function Navbar() {
             }}
             className="overflow-hidden border-t border-slate-200 bg-white xl:hidden"
           >
-            <div className="mx-auto flex max-w-[1600px] flex-col gap-1 px-5 py-4 lg:px-8">
+            <div className="mx-auto flex max-w-[1600px] flex-col gap-1.5 px-5 py-4 lg:px-8">
+
               {LINKS.map(([key, href]) => {
                 const active = isActive(href);
 
@@ -201,10 +201,10 @@ export default function Navbar() {
                   <LocaleLink
                     key={key}
                     href={href}
-                    className={`focus-ring rounded-xl px-4 py-3 text-base font-semibold transition-colors ${
+                    className={`focus-ring rounded-xl px-4 py-3 text-[16px] font-semibold transition-all duration-200 ${
                       active
-                        ? 'bg-brand-50 text-brand-800'
-                        : 'text-slate-700 hover:bg-slate-50 hover:text-brand-700'
+                        ? 'bg-brand-100 text-brand-900'
+                        : 'bg-slate-50 text-slate-700 hover:bg-brand-50 hover:text-brand-800'
                     }`}
                   >
                     {t(key)}
@@ -214,26 +214,26 @@ export default function Navbar() {
 
               <div className="my-2 border-t border-slate-100" />
 
-              {/* Mobile Volunteer */}
+              {/* Volunteer */}
               <LocaleLink
                 href="/volunteer"
-                className="focus-ring rounded-xl px-4 py-3 text-base font-semibold text-brand-900 hover:bg-brand-50"
+                className="focus-ring rounded-xl bg-slate-50 px-4 py-3 text-[16px] font-semibold text-brand-900 ring-1 ring-inset ring-slate-200 transition-colors hover:bg-brand-50"
               >
                 {t('volunteer')}
               </LocaleLink>
 
-              {/* Mobile Donate */}
+              {/* Donate */}
               <LocaleLink
                 href="/donate"
-                className="focus-ring rounded-xl bg-sun-500 px-4 py-3 text-center text-base font-semibold text-brand-950 shadow-md transition-colors hover:bg-sun-400"
+                className="focus-ring rounded-xl bg-sun-500 px-4 py-3 text-center text-[16px] font-semibold text-brand-950 shadow-md transition-colors hover:bg-sun-400"
               >
                 {t('donate')}
               </LocaleLink>
 
-              {/* Mobile Contact */}
+              {/* Contact */}
               <LocaleLink
                 href="/contact"
-                className="focus-ring rounded-xl px-4 py-3 text-base font-semibold text-slate-700 hover:bg-slate-50 hover:text-brand-700"
+                className="focus-ring rounded-xl bg-slate-50 px-4 py-3 text-[16px] font-semibold text-slate-700 transition-colors hover:bg-brand-50 hover:text-brand-800"
               >
                 {t('contact')}
               </LocaleLink>
