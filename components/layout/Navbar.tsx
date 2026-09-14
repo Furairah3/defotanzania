@@ -280,4 +280,154 @@ export default function Navbar() {
           <Button
             href="/volunteer"
             variant="ghost"
-            className="!bg-slate-100 !px
+            className="!bg-slate-100 !px-5 !text-brand-900 !ring-slate-200 hover:!bg-slate-200"
+          >
+            {t('volunteer')}
+          </Button>
+
+          <Button
+            href="/donate"
+            variant="secondary"
+            className="!px-5"
+          >
+            {t('donate')}
+          </Button>
+        </div>
+
+        {/* MOBILE MENU BUTTON */}
+        <button
+          type="button"
+          className="focus-ring ml-auto rounded-xl p-2.5 text-brand-900 hover:bg-slate-100 xl:hidden"
+          aria-expanded={open}
+          aria-controls="mobile-menu"
+          onClick={() => setOpen((o) => !o)}
+        >
+          <span className="sr-only">
+            {open ? 'Close menu' : 'Open menu'}
+          </span>
+
+          {open ? (
+            <X className="h-6 w-6" aria-hidden="true" />
+          ) : (
+            <Menu className="h-6 w-6" aria-hidden="true" />
+          )}
+        </button>
+      </nav>
+
+      {/* MOBILE MENU */}
+      <AnimatePresence>
+        {open && (
+          <motion.div
+            id="mobile-menu"
+            initial={
+              shouldReduceMotion
+                ? { opacity: 1 }
+                : { height: 0, opacity: 0 }
+            }
+            animate={{ height: 'auto', opacity: 1 }}
+            exit={
+              shouldReduceMotion
+                ? { opacity: 0 }
+                : { height: 0, opacity: 0 }
+            }
+            transition={{
+              duration: 0.25,
+              ease: 'easeInOut',
+            }}
+            className="overflow-hidden border-t border-slate-200 bg-white xl:hidden"
+          >
+            <div className="mx-auto flex max-w-[1600px] flex-col gap-2 px-6 py-5">
+              {/* HOME */}
+              <LocaleLink
+                href="/"
+                className={navItemClass(isActive('/'))}
+              >
+                {t('home')}
+              </LocaleLink>
+
+              {/* ABOUT */}
+              <div className="rounded-xl bg-slate-50 p-2">
+                <div className="px-2 py-1 text-xs font-bold uppercase tracking-wide text-slate-400">
+                  {t('about')}
+                </div>
+
+                {ABOUT_LINKS.map(([key, href]) => (
+                  <LocaleLink
+                    key={key}
+                    href={href}
+                    className="focus-ring block rounded-lg px-3 py-2.5 text-base font-medium text-slate-700 hover:bg-white hover:text-brand-700"
+                  >
+                    {t(key)}
+                  </LocaleLink>
+                ))}
+              </div>
+
+              {/* PROGRAMS */}
+              <div className="rounded-xl bg-slate-50 p-2">
+                <div className="px-2 py-1 text-xs font-bold uppercase tracking-wide text-slate-400">
+                  {t('programs')}
+                </div>
+
+                {PROGRAM_LINKS.map(([key, href]) => (
+                  <LocaleLink
+                    key={key}
+                    href={href}
+                    className="focus-ring block rounded-lg px-3 py-2.5 text-base font-medium text-slate-700 hover:bg-white hover:text-brand-700"
+                  >
+                    {t(key)}
+                  </LocaleLink>
+                ))}
+              </div>
+
+              {/* NEWS */}
+              <div className="rounded-xl bg-slate-50 p-2">
+                <div className="px-2 py-1 text-xs font-bold uppercase tracking-wide text-slate-400">
+                  {t('news')}
+                </div>
+
+                {NEWS_LINKS.map(([key, href]) => (
+                  <LocaleLink
+                    key={key}
+                    href={href}
+                    className="focus-ring block rounded-lg px-3 py-2.5 text-base font-medium text-slate-700 hover:bg-white hover:text-brand-700"
+                  >
+                    {t(key)}
+                  </LocaleLink>
+                ))}
+              </div>
+
+              {/* PARTNERS */}
+              <LocaleLink
+                href="/partners"
+                className={navItemClass(isActive('/partners'))}
+              >
+                {t('partners')}
+              </LocaleLink>
+
+              {/* VOLUNTEER */}
+              <LocaleLink
+                href="/volunteer"
+                className={navItemClass(isActive('/volunteer'))}
+              >
+                {t('volunteer')}
+              </LocaleLink>
+
+              {/* DONATE */}
+              <LocaleLink
+                href="/donate"
+                className="focus-ring rounded-xl bg-sun-500 px-4 py-3 text-base font-bold text-brand-950 shadow-sm hover:bg-sun-400"
+              >
+                {t('donate')}
+              </LocaleLink>
+
+              {/* LANGUAGE */}
+              <div className="mt-2 border-t border-slate-200 pt-4">
+                <LanguageSwitcher />
+              </div>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </header>
+  );
+}
